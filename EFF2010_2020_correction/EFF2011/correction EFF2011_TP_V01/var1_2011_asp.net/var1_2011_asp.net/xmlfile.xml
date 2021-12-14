@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <ville>
+    <code_ville>1</code_ville>
+    <nom_ville>Casablanca</nom_ville>
+  </ville>
+  <ville>
+    <code_ville>2</code_ville>
+    <nom_ville>Rabat</nom_ville>
+  </ville>
+  <ville>
+    <code_ville>3</code_ville>
+    <nom_ville>Marrakech</nom_ville>
+  </ville>
+</NewDataSet>

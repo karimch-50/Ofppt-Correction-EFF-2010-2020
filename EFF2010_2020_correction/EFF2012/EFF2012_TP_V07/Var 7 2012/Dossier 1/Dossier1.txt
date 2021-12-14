@@ -1,0 +1,117 @@
+create database Gestion_Parc_vehicule
+
+use Gestion_Parc_vehicule
+
+create table conducteur(
+idconducteur int primary key,
+nomC varchar(100),
+prenC varchar(100),
+dateN datetime,
+pass varchar(100));
+go
+create table vehicule(
+immat varchar(100) primary key,
+marque varchar(100),
+modele varchar(100),
+puissance int,
+carburant varchar(100),
+dateachat datetime,
+compteur int,
+idconducteur int foreign key references conducteur(idconducteur));
+go
+create table entretien(
+identretien int primary key,
+nomentretien varchar(100),
+frequence int,
+periode varchar(100),
+kilometrage int,
+montant float );
+go
+create table entrvehicule(
+identveh int primary key,
+immat varchar(100) foreign key references vehicule(immat),
+identretien int foreign key references entretien(identretien),
+dateentretien datetime,
+kmvehicule int);
+go
+create table assvehicule(
+idass int primary key,
+nomassureur varchar(100),
+dateass datetime,
+dateexpiration datetime,
+immat varchar(100) foreign key references vehicule(immat));
+
+go
+
+insert into Conducteur values(1,'nomC1','prenC1','12/12/1990','pass1')
+insert into Conducteur values(3,'nomC3','prenC3','12/12/1990','pass2')
+insert into Conducteur values(2,'nomC2','prenC2','12/12/1990','pass3')
+go
+insert into Vehicule values ('123456','marque1','modele1',500,'carburant','2/2/2000',1234,1)
+insert into Vehicule values ('123457','marque2','modele2',800,'carburant','2/2/2000',4563,2)
+insert into Vehicule values ('123458','marque1','modele3',350,'carburant','2/2/2000',4586,3)
+go
+insert into Entretien values (1,'NomEntretien',12,10,125,1000.21)
+insert into Entretien values (2,'NomEntretien',30,10,125,1500.300)
+insert into Entretien values (3,'NomEntretien',17,10,125,2020.50)
+go
+insert into EntrVehicule values (1,'123456',1,'5/6/2010',12)
+insert into EntrVehicule values (2,'123457',2,'5/6/2010',12)
+insert into EntrVehicule values (3,'123458',3,'5/6/2010',12)
+go
+insert into assvehicule values(1,'Assureur1','8/4/2012','2/5/2013','123456')
+insert into assvehicule values(2,'Assureur2','5/6/2012','3/7/2013','123457')
+insert into assvehicule values(3,'Assureur3','3/2/2012','6/6/2013','123458')
+
+
+--- Question2
+
+create proc Question2 @marque varchar(100)
+as begin
+if exists( select marque from vehicule where marque=@marque)
+select * from vehicule where marque=@marque
+else
+print 'marque n existe pas !' 
+end 
+
+-- test de Question2
+exec Question2 'marque1'
+
+-- Question3
+create proc Question3
+as begin
+select * from vehicule inner join assvehicule 
+on vehicule.immat =assvehicule.immat 
+where datediff(dd,assvehicule.dateass,assvehicule.dateexpiration)< = 7
+end 
+
+-- Question5
+create trigger Question5 on entrvehicule
+instead of insert
+as begin
+declare @km int ,@immat int , @cpt int
+set @km = (select kmvehicule from inserted)
+set @immat =(select immat from inserted)
+set @cpt = (select compteur from vehicule where vehicule.immat = @immat )
+if @km < @cpt 
+begin
+print 'Ajout refusée'
+rollback
+end
+else
+insert into entrvehicule select * from inserted
+end
+
+--- question 6
+
+create trigger Question6 on entrvehicule
+after insert
+as begin
+declare @immat int ,@identretien int , @cpt int
+set @immat =(select immat from inserted)
+set @identretien = (select identretien from inserted )
+set @cpt = (select kilometrage from entretien where entretien.identretien = @identretien )
+update vehicule
+set compteur = compteur + @cpt
+where vehicule.immat = @immat
+end

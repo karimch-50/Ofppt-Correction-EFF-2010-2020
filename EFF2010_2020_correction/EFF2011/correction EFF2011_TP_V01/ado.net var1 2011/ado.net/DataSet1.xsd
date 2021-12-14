@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="v12011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="v12011ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.v12011ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="v12011ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="v12011ConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsApplication1.My.MySettings.GlobalReference.Default.v12011ConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="calendrierTableAdapter" GeneratorDataComponentClassName="calendrierTableAdapter" Name="calendrier" UserDataComponentName="calendrierTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="v12011ConnectionString1 (MySettings)" DbObjectName="v12011.dbo.Calendrier" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT jour_voyage, heure_depart, heure_arrivee FROM Calendrier</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="jour_voyage" DataSetColumn="jour_voyage" />
+              <Mapping SourceColumn="heure_depart" DataSetColumn="heure_depart" />
+              <Mapping SourceColumn="heure_arrivee" DataSetColumn="heure_arrivee" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VoyageTableAdapter" GeneratorDataComponentClassName="VoyageTableAdapter" Name="Voyage" UserDataComponentName="VoyageTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="v12011ConnectionString1 (MySettings)" DbObjectName="v12011.dbo.Voyage" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [Voyage] WHERE (([code_voyage] = @Original_code_voyage) AND ((@IsNull_dh_depart_voyage = 1 AND [dh_depart_voyage] IS NULL) OR ([dh_depart_voyage] = @Original_dh_depart_voyage)) AND ((@IsNull_dh_arrive_voyage = 1 AND [dh_arrive_voyage] IS NULL) OR ([dh_arrive_voyage] = @Original_dh_arrive_voyage)) AND ((@IsNull_places = 1 AND [places] IS NULL) OR ([places] = @Original_places)) AND ((@IsNull_compteur_depart = 1 AND [compteur_depart] IS NULL) OR ([compteur_depart] = @Original_compteur_depart)) AND ((@IsNull_compteur_arrivee = 1 AND [compteur_arrivee] IS NULL) OR ([compteur_arrivee] = @Original_compteur_arrivee)) AND ((@IsNull_matricule = 1 AND [matricule] IS NULL) OR ([matricule] = @Original_matricule)) AND ((@IsNull_code_car = 1 AND [code_car] IS NULL) OR ([code_car] = @Original_code_car)) AND ((@IsNull_code_calendrier = 1 AND [code_calendrier] IS NULL) OR ([code_calendrier] = @Original_code_calendrier)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_dh_depart_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="dh_depart_voyage" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_dh_depart_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_depart_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_dh_arrive_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="dh_arrive_voyage" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_dh_arrive_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_arrive_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_places" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="places" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_places" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="places" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_compteur_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_depart" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_compteur_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_depart" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_compteur_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_arrivee" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_compteur_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_arrivee" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_matricule" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="matricule" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_matricule" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="matricule" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [Voyage] ([dh_depart_voyage], [dh_arrive_voyage], [places], [compteur_depart], [compteur_arrivee], [matricule], [code_car], [code_calendrier]) VALUES (@dh_depart_voyage, @dh_arrive_voyage, @places, @compteur_depart, @compteur_arrivee, @matricule, @code_car, @code_calendrier);
+SELECT code_voyage, dh_depart_voyage, dh_arrive_voyage, places, compteur_depart, compteur_arrivee, matricule, code_car, code_calendrier FROM Voyage WHERE (code_voyage = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@dh_depart_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_depart_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@dh_arrive_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_arrive_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@places" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="places" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@compteur_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_depart" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@compteur_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_arrivee" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@matricule" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="matricule" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Voyage</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [Voyage] SET [dh_depart_voyage] = @dh_depart_voyage, [dh_arrive_voyage] = @dh_arrive_voyage, [places] = @places, [compteur_depart] = @compteur_depart, [compteur_arrivee] = @compteur_arrivee, [matricule] = @matricule, [code_car] = @code_car, [code_calendrier] = @code_calendrier WHERE (([code_voyage] = @Original_code_voyage) AND ((@IsNull_dh_depart_voyage = 1 AND [dh_depart_voyage] IS NULL) OR ([dh_depart_voyage] = @Original_dh_depart_voyage)) AND ((@IsNull_dh_arrive_voyage = 1 AND [dh_arrive_voyage] IS NULL) OR ([dh_arrive_voyage] = @Original_dh_arrive_voyage)) AND ((@IsNull_places = 1 AND [places] IS NULL) OR ([places] = @Original_places)) AND ((@IsNull_compteur_depart = 1 AND [compteur_depart] IS NULL) OR ([compteur_depart] = @Original_compteur_depart)) AND ((@IsNull_compteur_arrivee = 1 AND [compteur_arrivee] IS NULL) OR ([compteur_arrivee] = @Original_compteur_arrivee)) AND ((@IsNull_matricule = 1 AND [matricule] IS NULL) OR ([matricule] = @Original_matricule)) AND ((@IsNull_code_car = 1 AND [code_car] IS NULL) OR ([code_car] = @Original_code_car)) AND ((@IsNull_code_calendrier = 1 AND [code_calendrier] IS NULL) OR ([code_calendrier] = @Original_code_calendrier)));
+SELECT code_voyage, dh_depart_voyage, dh_arrive_voyage, places, compteur_depart, compteur_arrivee, matricule, code_car, code_calendrier FROM Voyage WHERE (code_voyage = @code_voyage)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@dh_depart_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_depart_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@dh_arrive_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_arrive_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@places" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="places" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@compteur_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_depart" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@compteur_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_arrivee" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@matricule" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="matricule" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_dh_depart_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="dh_depart_voyage" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_dh_depart_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_depart_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_dh_arrive_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="dh_arrive_voyage" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_dh_arrive_voyage" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="dh_arrive_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_places" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="places" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_places" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="places" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_compteur_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_depart" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_compteur_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_depart" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_compteur_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_arrivee" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_compteur_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="compteur_arrivee" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_matricule" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="matricule" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_matricule" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="matricule" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="code_voyage" ColumnName="code_voyage" DataSourceName="v12011.dbo.Voyage" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@code_voyage" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="code_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="code_voyage" DataSetColumn="code_voyage" />
+              <Mapping SourceColumn="dh_depart_voyage" DataSetColumn="dh_depart_voyage" />
+              <Mapping SourceColumn="dh_arrive_voyage" DataSetColumn="dh_arrive_voyage" />
+              <Mapping SourceColumn="places" DataSetColumn="places" />
+              <Mapping SourceColumn="compteur_depart" DataSetColumn="compteur_depart" />
+              <Mapping SourceColumn="compteur_arrivee" DataSetColumn="compteur_arrivee" />
+              <Mapping SourceColumn="matricule" DataSetColumn="matricule" />
+              <Mapping SourceColumn="code_car" DataSetColumn="code_car" />
+              <Mapping SourceColumn="code_calendrier" DataSetColumn="code_calendrier" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ligne1TableAdapter" GeneratorDataComponentClassName="ligne1TableAdapter" Name="ligne1" UserDataComponentName="ligne1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="v12011ConnectionString1 (MySettings)" DbObjectName="v12011.dbo.Ligne" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select l.code_ligne, sum(v.compteur_arrivee - v.compteur_depart) as [distance] from Ligne l inner join Calendrier c on c.code_ligne= l.code_ligne
+inner join Voyage v on v.code_calendrier= c.code_calendrier
+group by l.code_ligne</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="code_ligne" DataSetColumn="code_ligne" />
+              <Mapping SourceColumn="distance" DataSetColumn="distance" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="autocarTableAdapter" GeneratorDataComponentClassName="autocarTableAdapter" Name="autocar" UserDataComponentName="autocarTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="v12011ConnectionString1 (MySettings)" DbObjectName="v12011.dbo.Autocar" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [Autocar] WHERE (([code_car] = @Original_code_car) AND ((@IsNull_capacite = 1 AND [capacite] IS NULL) OR ([capacite] = @Original_capacite)) AND ((@IsNull_date_achat = 1 AND [date_achat] IS NULL) OR ([date_achat] = @Original_date_achat)) AND ((@IsNull_consomation = 1 AND [consomation] IS NULL) OR ([consomation] = @Original_consomation)) AND ((@IsNull_nom_marque = 1 AND [nom_marque] IS NULL) OR ([nom_marque] = @Original_nom_marque)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_capacite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="capacite" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_capacite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="capacite" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_date_achat" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="date_achat" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_date_achat" Precision="0" ProviderType="SmallDateTime" Scale="0" Size="0" SourceColumn="date_achat" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_consomation" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="consomation" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_consomation" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="consomation" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_nom_marque" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="nom_marque" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_nom_marque" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nom_marque" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [Autocar] ([code_car], [capacite], [date_achat], [consomation], [nom_marque]) VALUES (@code_car, @capacite, @date_achat, @consomation, @nom_marque);
+SELECT code_car, capacite, date_achat, consomation, nom_marque FROM Autocar WHERE (code_car = @code_car)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@capacite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="capacite" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@date_achat" Precision="0" ProviderType="SmallDateTime" Scale="0" Size="0" SourceColumn="date_achat" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@consomation" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="consomation" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nom_marque" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nom_marque" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Autocar
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [Autocar] SET [code_car] = @code_car, [capacite] = @capacite, [date_achat] = @date_achat, [consomation] = @consomation, [nom_marque] = @nom_marque WHERE (([code_car] = @Original_code_car) AND ((@IsNull_capacite = 1 AND [capacite] IS NULL) OR ([capacite] = @Original_capacite)) AND ((@IsNull_date_achat = 1 AND [date_achat] IS NULL) OR ([date_achat] = @Original_date_achat)) AND ((@IsNull_consomation = 1 AND [consomation] IS NULL) OR ([consomation] = @Original_consomation)) AND ((@IsNull_nom_marque = 1 AND [nom_marque] IS NULL) OR ([nom_marque] = @Original_nom_marque)));
+SELECT code_car, capacite, date_achat, consomation, nom_marque FROM Autocar WHERE (code_car = @code_car)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@capacite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="capacite" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@date_achat" Precision="0" ProviderType="SmallDateTime" Scale="0" Size="0" SourceColumn="date_achat" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@consomation" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="consomation" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nom_marque" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nom_marque" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_car" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_car" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_capacite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="capacite" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_capacite" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="capacite" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_date_achat" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="date_achat" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Original_date_achat" Precision="0" ProviderType="SmallDateTime" Scale="0" Size="0" SourceColumn="date_achat" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_consomation" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="consomation" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_consomation" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="consomation" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_nom_marque" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="nom_marque" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_nom_marque" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nom_marque" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="code_car" DataSetColumn="code_car" />
+              <Mapping SourceColumn="capacite" DataSetColumn="capacite" />
+              <Mapping SourceColumn="date_achat" DataSetColumn="date_achat" />
+              <Mapping SourceColumn="consomation" DataSetColumn="consomation" />
+              <Mapping SourceColumn="nom_marque" DataSetColumn="nom_marque" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Q4TableAdapter" GeneratorDataComponentClassName="Q4TableAdapter" Name="Q4" UserDataComponentName="Q4TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="v12011ConnectionString1 (MySettings)" DbObjectName="v12011.dbo.Calendrier" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [Calendrier] WHERE (([code_calendrier] = @Original_code_calendrier) AND ((@IsNull_jour_voyage = 1 AND [jour_voyage] IS NULL) OR ([jour_voyage] = @Original_jour_voyage)) AND ((@IsNull_heure_depart = 1 AND [heure_depart] IS NULL) OR ([heure_depart] = @Original_heure_depart)) AND ((@IsNull_heure_arrivee = 1 AND [heure_arrivee] IS NULL) OR ([heure_arrivee] = @Original_heure_arrivee)) AND ((@IsNull_code_ligne = 1 AND [code_ligne] IS NULL) OR ([code_ligne] = @Original_code_ligne)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_jour_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="jour_voyage" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_jour_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="jour_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_heure_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="heure_depart" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_heure_depart" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_depart" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_heure_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="heure_arrivee" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_heure_arrivee" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_arrivee" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_code_ligne" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_ligne" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_ligne" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_ligne" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [Calendrier] ([code_calendrier], [jour_voyage], [heure_depart], [heure_arrivee], [code_ligne]) VALUES (@code_calendrier, @jour_voyage, @heure_depart, @heure_arrivee, @code_ligne);
+SELECT code_calendrier, jour_voyage, heure_depart, heure_arrivee, code_ligne FROM Calendrier WHERE (code_calendrier = @code_calendrier)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@jour_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="jour_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@heure_depart" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_depart" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@heure_arrivee" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_arrivee" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_ligne" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_ligne" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from Calendrier</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [Calendrier] SET [code_calendrier] = @code_calendrier, [jour_voyage] = @jour_voyage, [heure_depart] = @heure_depart, [heure_arrivee] = @heure_arrivee, [code_ligne] = @code_ligne WHERE (([code_calendrier] = @Original_code_calendrier) AND ((@IsNull_jour_voyage = 1 AND [jour_voyage] IS NULL) OR ([jour_voyage] = @Original_jour_voyage)) AND ((@IsNull_heure_depart = 1 AND [heure_depart] IS NULL) OR ([heure_depart] = @Original_heure_depart)) AND ((@IsNull_heure_arrivee = 1 AND [heure_arrivee] IS NULL) OR ([heure_arrivee] = @Original_heure_arrivee)) AND ((@IsNull_code_ligne = 1 AND [code_ligne] IS NULL) OR ([code_ligne] = @Original_code_ligne)));
+SELECT code_calendrier, jour_voyage, heure_depart, heure_arrivee, code_ligne FROM Calendrier WHERE (code_calendrier = @code_calendrier)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@jour_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="jour_voyage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@heure_depart" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_depart" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@heure_arrivee" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_arrivee" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@code_ligne" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_ligne" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_calendrier" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_calendrier" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_jour_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="jour_voyage" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_jour_voyage" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="jour_voyage" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_heure_depart" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="heure_depart" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_heure_depart" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_depart" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_heure_arrivee" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="heure_arrivee" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@Original_heure_arrivee" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="heure_arrivee" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_code_ligne" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_ligne" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_code_ligne" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="code_ligne" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="code_calendrier" DataSetColumn="code_calendrier" />
+              <Mapping SourceColumn="jour_voyage" DataSetColumn="jour_voyage" />
+              <Mapping SourceColumn="heure_depart" DataSetColumn="heure_depart" />
+              <Mapping SourceColumn="heure_arrivee" DataSetColumn="heure_arrivee" />
+              <Mapping SourceColumn="code_ligne" DataSetColumn="code_ligne" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="calendrier" msprop:Generator_UserTableName="calendrier" msprop:Generator_RowDeletedName="calendrierRowDeleted" msprop:Generator_RowChangedName="calendrierRowChanged" msprop:Generator_RowClassName="calendrierRow" msprop:Generator_RowChangingName="calendrierRowChanging" msprop:Generator_RowEvArgName="calendrierRowChangeEvent" msprop:Generator_RowEvHandlerName="calendrierRowChangeEventHandler" msprop:Generator_TableClassName="calendrierDataTable" msprop:Generator_TableVarName="tablecalendrier" msprop:Generator_RowDeletingName="calendrierRowDeleting" msprop:Generator_TablePropName="calendrier">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="jour_voyage" msprop:Generator_UserColumnName="jour_voyage" msprop:Generator_ColumnPropNameInRow="jour_voyage" msprop:Generator_ColumnVarNameInTable="columnjour_voyage" msprop:Generator_ColumnPropNameInTable="jour_voyageColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="heure_depart" msprop:Generator_UserColumnName="heure_depart" msprop:Generator_ColumnPropNameInRow="heure_depart" msprop:Generator_ColumnVarNameInTable="columnheure_depart" msprop:Generator_ColumnPropNameInTable="heure_departColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="heure_arrivee" msprop:Generator_UserColumnName="heure_arrivee" msprop:Generator_ColumnPropNameInRow="heure_arrivee" msprop:Generator_ColumnVarNameInTable="columnheure_arrivee" msprop:Generator_ColumnPropNameInTable="heure_arriveeColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Voyage" msprop:Generator_UserTableName="Voyage" msprop:Generator_RowDeletedName="VoyageRowDeleted" msprop:Generator_RowChangedName="VoyageRowChanged" msprop:Generator_RowClassName="VoyageRow" msprop:Generator_RowChangingName="VoyageRowChanging" msprop:Generator_RowEvArgName="VoyageRowChangeEvent" msprop:Generator_RowEvHandlerName="VoyageRowChangeEventHandler" msprop:Generator_TableClassName="VoyageDataTable" msprop:Generator_TableVarName="tableVoyage" msprop:Generator_RowDeletingName="VoyageRowDeleting" msprop:Generator_TablePropName="Voyage">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code_voyage" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="code_voyage" msprop:Generator_ColumnVarNameInTable="columncode_voyage" msprop:Generator_ColumnPropNameInRow="code_voyage" msprop:Generator_ColumnPropNameInTable="code_voyageColumn" type="xs:int" />
+              <xs:element name="dh_depart_voyage" msprop:Generator_UserColumnName="dh_depart_voyage" msprop:Generator_ColumnVarNameInTable="columndh_depart_voyage" msprop:Generator_ColumnPropNameInRow="dh_depart_voyage" msprop:Generator_ColumnPropNameInTable="dh_depart_voyageColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="dh_arrive_voyage" msprop:Generator_UserColumnName="dh_arrive_voyage" msprop:Generator_ColumnVarNameInTable="columndh_arrive_voyage" msprop:Generator_ColumnPropNameInRow="dh_arrive_voyage" msprop:Generator_ColumnPropNameInTable="dh_arrive_voyageColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="places" msprop:Generator_UserColumnName="places" msprop:Generator_ColumnVarNameInTable="columnplaces" msprop:Generator_ColumnPropNameInRow="places" msprop:Generator_ColumnPropNameInTable="placesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="compteur_depart" msprop:Generator_UserColumnName="compteur_depart" msprop:Generator_ColumnVarNameInTable="columncompteur_depart" msprop:Generator_ColumnPropNameInRow="compteur_depart" msprop:Generator_ColumnPropNameInTable="compteur_departColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="compteur_arrivee" msprop:Generator_UserColumnName="compteur_arrivee" msprop:Generator_ColumnVarNameInTable="columncompteur_arrivee" msprop:Generator_ColumnPropNameInRow="compteur_arrivee" msprop:Generator_ColumnPropNameInTable="compteur_arriveeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="matricule" msprop:Generator_UserColumnName="matricule" msprop:Generator_ColumnVarNameInTable="columnmatricule" msprop:Generator_ColumnPropNameInRow="matricule" msprop:Generator_ColumnPropNameInTable="matriculeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="code_car" msprop:Generator_UserColumnName="code_car" msprop:Generator_ColumnVarNameInTable="columncode_car" msprop:Generator_ColumnPropNameInRow="code_car" msprop:Generator_ColumnPropNameInTable="code_carColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="code_calendrier" msprop:Generator_UserColumnName="code_calendrier" msprop:Generator_ColumnVarNameInTable="columncode_calendrier" msprop:Generator_ColumnPropNameInRow="code_calendrier" msprop:Generator_ColumnPropNameInTable="code_calendrierColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ligne1" msprop:Generator_UserTableName="ligne1" msprop:Generator_RowDeletedName="ligne1RowDeleted" msprop:Generator_RowChangedName="ligne1RowChanged" msprop:Generator_RowClassName="ligne1Row" msprop:Generator_RowChangingName="ligne1RowChanging" msprop:Generator_RowEvArgName="ligne1RowChangeEvent" msprop:Generator_RowEvHandlerName="ligne1RowChangeEventHandler" msprop:Generator_TableClassName="ligne1DataTable" msprop:Generator_TableVarName="tableligne1" msprop:Generator_RowDeletingName="ligne1RowDeleting" msprop:Generator_TablePropName="ligne1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code_ligne" msprop:Generator_UserColumnName="code_ligne" msprop:Generator_ColumnPropNameInRow="code_ligne" msprop:Generator_ColumnVarNameInTable="columncode_ligne" msprop:Generator_ColumnPropNameInTable="code_ligneColumn" type="xs:int" />
+              <xs:element name="distance" msdata:ReadOnly="true" msprop:Generator_UserColumnName="distance" msprop:Generator_ColumnPropNameInRow="distance" msprop:Generator_ColumnVarNameInTable="columndistance" msprop:Generator_ColumnPropNameInTable="distanceColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="autocar" msprop:Generator_UserTableName="autocar" msprop:Generator_RowDeletedName="autocarRowDeleted" msprop:Generator_RowChangedName="autocarRowChanged" msprop:Generator_RowClassName="autocarRow" msprop:Generator_RowChangingName="autocarRowChanging" msprop:Generator_RowEvArgName="autocarRowChangeEvent" msprop:Generator_RowEvHandlerName="autocarRowChangeEventHandler" msprop:Generator_TableClassName="autocarDataTable" msprop:Generator_TableVarName="tableautocar" msprop:Generator_RowDeletingName="autocarRowDeleting" msprop:Generator_TablePropName="autocar">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code_car" msprop:Generator_UserColumnName="code_car" msprop:Generator_ColumnPropNameInRow="code_car" msprop:Generator_ColumnVarNameInTable="columncode_car" msprop:Generator_ColumnPropNameInTable="code_carColumn" type="xs:int" />
+              <xs:element name="capacite" msprop:Generator_UserColumnName="capacite" msprop:Generator_ColumnPropNameInRow="capacite" msprop:Generator_ColumnVarNameInTable="columncapacite" msprop:Generator_ColumnPropNameInTable="capaciteColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="date_achat" msprop:Generator_UserColumnName="date_achat" msprop:Generator_ColumnPropNameInRow="date_achat" msprop:Generator_ColumnVarNameInTable="columndate_achat" msprop:Generator_ColumnPropNameInTable="date_achatColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="consomation" msprop:Generator_UserColumnName="consomation" msprop:Generator_ColumnPropNameInRow="consomation" msprop:Generator_ColumnVarNameInTable="columnconsomation" msprop:Generator_ColumnPropNameInTable="consomationColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="nom_marque" msprop:Generator_UserColumnName="nom_marque" msprop:Generator_ColumnPropNameInRow="nom_marque" msprop:Generator_ColumnVarNameInTable="columnnom_marque" msprop:Generator_ColumnPropNameInTable="nom_marqueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Q4" msprop:Generator_UserTableName="Q4" msprop:Generator_RowDeletedName="Q4RowDeleted" msprop:Generator_TableClassName="Q4DataTable" msprop:Generator_RowChangedName="Q4RowChanged" msprop:Generator_RowClassName="Q4Row" msprop:Generator_RowChangingName="Q4RowChanging" msprop:Generator_RowEvArgName="Q4RowChangeEvent" msprop:Generator_RowEvHandlerName="Q4RowChangeEventHandler" msprop:Generator_TablePropName="Q4" msprop:Generator_TableVarName="tableQ4" msprop:Generator_RowDeletingName="Q4RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="code_calendrier" msprop:Generator_UserColumnName="code_calendrier" msprop:Generator_ColumnPropNameInRow="code_calendrier" msprop:Generator_ColumnVarNameInTable="columncode_calendrier" msprop:Generator_ColumnPropNameInTable="code_calendrierColumn" type="xs:int" />
+              <xs:element name="jour_voyage" msprop:Generator_UserColumnName="jour_voyage" msprop:Generator_ColumnPropNameInRow="jour_voyage" msprop:Generator_ColumnVarNameInTable="columnjour_voyage" msprop:Generator_ColumnPropNameInTable="jour_voyageColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="heure_depart" msprop:Generator_UserColumnName="heure_depart" msprop:Generator_ColumnPropNameInRow="heure_depart" msprop:Generator_ColumnVarNameInTable="columnheure_depart" msprop:Generator_ColumnPropNameInTable="heure_departColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="heure_arrivee" msprop:Generator_UserColumnName="heure_arrivee" msprop:Generator_ColumnPropNameInRow="heure_arrivee" msprop:Generator_ColumnVarNameInTable="columnheure_arrivee" msprop:Generator_ColumnPropNameInTable="heure_arriveeColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="code_ligne" msprop:Generator_UserColumnName="code_ligne" msprop:Generator_ColumnPropNameInRow="code_ligne" msprop:Generator_ColumnVarNameInTable="columncode_ligne" msprop:Generator_ColumnPropNameInTable="code_ligneColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Voyage" />
+      <xs:field xpath="mstns:code_voyage" />
+    </xs:unique>
+    <xs:unique name="ligne1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ligne1" />
+      <xs:field xpath="mstns:code_ligne" />
+    </xs:unique>
+    <xs:unique name="autocar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:autocar" />
+      <xs:field xpath="mstns:code_car" />
+    </xs:unique>
+    <xs:unique name="Q4_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Q4" />
+      <xs:field xpath="mstns:code_calendrier" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK__Voyage__code_car__0DAF0CB0" msdata:parent="autocar" msdata:child="Voyage" msdata:parentkey="code_car" msdata:childkey="code_car" msprop:Generator_UserRelationName="FK__Voyage__code_car__0DAF0CB0" msprop:Generator_RelationVarName="relationFK__Voyage__code_car__0DAF0CB0" msprop:Generator_UserChildTable="Voyage" msprop:Generator_UserParentTable="autocar" msprop:Generator_ParentPropName="autocarRow" msprop:Generator_ChildPropName="GetVoyageRows" />
+      <msdata:Relationship name="FK__Voyage__code_cal__1DE57479" msdata:parent="Q4" msdata:child="Voyage" msdata:parentkey="code_calendrier" msdata:childkey="code_calendrier" msprop:Generator_UserRelationName="FK__Voyage__code_cal__1DE57479" msprop:Generator_RelationVarName="relationFK__Voyage__code_cal__1DE57479" msprop:Generator_UserChildTable="Voyage" msprop:Generator_UserParentTable="Q4" msprop:Generator_ParentPropName="Q4Row" msprop:Generator_ChildPropName="GetVoyageRows" />
+      <msdata:Relationship name="FK__Calendrie__code___173876EA" msdata:parent="ligne1" msdata:child="Q4" msdata:parentkey="code_ligne" msdata:childkey="code_ligne" msprop:Generator_UserRelationName="FK__Calendrie__code___173876EA" msprop:Generator_RelationVarName="relationFK__Calendrie__code___173876EA" msprop:Generator_UserChildTable="Q4" msprop:Generator_UserParentTable="ligne1" msprop:Generator_ParentPropName="ligne1Row" msprop:Generator_ChildPropName="GetQ4Rows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

@@ -1,0 +1,32 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="variante8_j3.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Page sans titre</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Question2.aspx" Text="Question2" Value="Question2">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Question3.aspx" Text="Question3" Value="Question3">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Question4.aspx" Text="Question4" Value="Question4">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Question5.aspx" Text="Question5" Value="Question5">
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript" src="javascript_file.js"></script>
+    <link rel="stylesheet" href="css_file.css">
+    <script src="jquery.js"></script>
+</head>
+<body>
+<h5>Information personnelles:</h5>
+    <fieldset>
+        <table>
+            <tr>
+                <td>
+                    <label>CIN:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="entrer votre CIN" id="T1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>NOM:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="entrer votre Nom" id="T2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>PRENOM:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="entrer votre prenom" id="T3">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date du pelerinage:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="ex: 2020/12/12" id="T4" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>sexe:</label>
+                </td>
+                <td>
+                    <input type="radio" name="N1" id="R1" onclick="F2()">
+                    <label>H</label>
+                    <input type="radio" name="N1" id="R2" onclick="F2()">
+                    <label>F</label>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <div id="D1">
+    <h5>Accompagnateur(Mahram):</h5>
+    <fieldset>
+        <table>
+            <tr>
+                <td>
+                    <label>CIN de l'accompagnateur</label>
+                </td>
+                <td>
+                    <select id="S1">
+                        <option value="BHXXXXX">BHXXXXX</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>lien familial:</label>
+                </td>
+                <td>
+                    <select id="S2">
+                        <option value="pere">pere</option>
+                    </select>
+
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </div>
+    <h5>Dossier Medicale:</h5>
+    <fieldset>
+        <table>
+            <tr>
+                <td>
+                    <label>group sanguin</label>
+                </td>
+                <td>
+                    <select id="S3">
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                        <option value="AB+">AB+</option>
+                        <option value="A-">A-</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>maladies:</label>
+                </td>
+                <td>
+                    <textarea name="" id="TXA1" cols="10" rows="5"></textarea>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="button" value="s'inscrire" id="B1" onclick="F1()">
+</body>
+</html>

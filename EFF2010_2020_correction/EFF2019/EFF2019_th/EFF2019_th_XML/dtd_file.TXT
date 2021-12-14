@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+< !element pelerinages(pelerinage+)>
+<!ELEMENT pelerinage(pelerin+)>
+<!ATTLIST pelerinage
+	  annee(CDATA)
+>
+<!ELEMENT pelerin(nom,prenom,dossier_medical)>
+<!ATTLIST pelerin
+	  num CDATA
+	  sexe(M|F)
+	  nationalite CDATA
+	  age CDATA
+	  idaccompagnateur CDATA
+>
+<!ELEMENT nom(#PCDATA)>
+<!ELEMENT prenom(#PCDATA)>
+<!ELEMENT dossier_medical(maladie,enceinte)>
+<!ATTLIST dossier_medical
+	  groupe_sanguin(+A|+B|+AB|+O|-A|-B|-AB|-O)
+>
+<!ELEMENT maladie(#PCDATA)>
+<!ELEMENT enceinte(EMPTY)>
+<!ATTLIST enceinte
+	  semaine CDATA
+>
+

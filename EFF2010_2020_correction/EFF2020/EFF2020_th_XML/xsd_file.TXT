@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="FestivaleRire">
+<xsd:complexType>
+<xsd:sequence maxOccurs="1" minOccurs="1">
+	<xsd:element name="participant">
+    	<xsd:complexType>
+	<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+	<xsd:attribut name="idp" type="xsd:int"/>
+		<xsd:element name="nom" type="xsd:string"/>
+		<xsd:element name="prenom" type="xsd:string"/>
+		<xsd:element name="civilite" type="xsd:string"/>
+		<xsd:element name="tel" type="xsd:int"/>
+
+		<xsd:element name="ville">
+		<xsd:complexType>
+		<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+			<xsd:element name="idv" type="xsd:int"/>
+			<xsd:element name="libellev" type="xsd:string">
+		</xsd:sequence>
+		</xsd:complexType>
+		</xsd:element>
+
+		<xsd:element name="blague">
+		<xsd:complexType>
+		<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+		<xsd:attribut name="idb" type="xsd:int"/>
+			<xsd:element name="titre" type="xsd:string"/>
+			<xsd:element name="contenu" type="xsd:string"/>
+			<xsd:element name="nbrvote" type="xsd:int">
+		</xsd:sequence>
+		</xsd:complexType>
+		</xsd:element>
+	</xsd:sequence>
+	</xsd:complexType>
+	</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>

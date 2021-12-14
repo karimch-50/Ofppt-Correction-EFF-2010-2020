@@ -1,0 +1,104 @@
+Only 2 Pages are Converted in the Unregistered Version 
+
+potntC;onaon"n.tJ .... 'au' 10 -~ 
+
+On A CO. ""Amp CUm 
+
+6) Ecm .. un Irtgg,., Que SOftie a ulMonlanlCo 
+
+20 'l-o de I. qUAnh~~~~~Che III 80f11e dun a"iete \2 Pta~mnllon de ta lat)! 
+
+OCI( do eel un anid " 
+
+article '2 e 81 I .. Qu8nl .... 
+
+\ Pta) .... 6 son., 
+
+J2P,,'er:J : (Spts) es\ .u~neur, 
+
+Le Ilchier XML 
+
+... . ... aUlvanl , 
+
+caract .. nsee par les Info epr6sonle I 
+
+'miliiona sUlvanlea ~s Chllinos de t616v1 
+
+< 7)(ml versIon.", 0"7> nom de I. thalne d ilIOn par .. tenlte u 
+
+<emissIons> . ate de IlIncemen\ ',A.. no chiMe 
+
+.... lIance 
+
+<satellite nomsal .. ··NlleSat 
+
+<ename nomch:Z"AI A orblle:O'7" Que I" 
+
+oula" d s > 
+
+<frequence>'2207<Jfre ateLancernenla"l • 
+
+<polansatlon>V<1 I qUance> 51081199S" > 
+
+po ansalto 
+
+<deblt>27S00</deblt> n> 
+
+< /cname> 
+
+<chaine nomch="2M M 
+
+Onde" 
+
+<frequence>11 034</frequenc::teLancement ::"'0111/200'''> 
+
+<polansalton>V</polarisallon> 
+
+<deblt>27S00</deblt> 
+
+< /chaine> 
+
+<chaine nomch="Arriadia" d 
+
+<frequence> 11450</fre ateLancement="26/06/200S" > 
+
+< J . quence> 
+
+po ~nsation>H</polarisatlon> 
+
+<deblt>29700</debit> 
+
+< /chaine> 
+
+< /satellite> 
+
+<satellite nomsat="HotBird" bit 
+
+. or e="13° Est" > 
+
+<chaine nomch="TV 5 Monde" d t L <treqUence>11200</frequence>a e ancement="15/03/2001" > 
+
+<polarisation>V</poJarisation> 
+
+<debit>27500</debit> 
+
+< /chaine> 
+
+<chaine nomch="AI Aoula" dateLancement="2211212002" > <frequence> 11441 </frequence> <polarisation>V</polarisation> 
+
+<debit>27500</debit> 
+
+< /chaine> < Isatel/ite> 
+
+.......... 
+
+< lemissions> 
+
+Ecrire les raquetes XPath permettant de : 
+
+1) Lister des chaines du satellite HotBird. (1 pt) 
+
+2) Lister des chaines lancees apres la date "01/01/2001". (1 pt) 
+
+3) Donner Ie Nombre de chaines du satellite NileSat. (1 pt) 
+

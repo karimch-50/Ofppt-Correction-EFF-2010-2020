@@ -1,0 +1,4 @@
+2)
+//participant[@idp="2"]/blague
+3)
+count(FestivaleRire/participant/ville[libellev="rabat"])

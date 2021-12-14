@@ -1,0 +1,4 @@
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier3\Dossier3\Dossier3\bin\Dossier3.dll
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier3\Dossier3\Dossier3\bin\Dossier3.pdb
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier3\Dossier3\Dossier3\obj\Debug\Dossier3.dll
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier3\Dossier3\Dossier3\obj\Debug\Dossier3.pdb

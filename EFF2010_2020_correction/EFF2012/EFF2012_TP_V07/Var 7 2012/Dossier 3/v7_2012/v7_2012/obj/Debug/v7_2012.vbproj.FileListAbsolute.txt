@@ -1,0 +1,9 @@
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\bin\v7_2012.dll
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\bin\v7_2012.pdb
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\bin\v7_2012.xml
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\obj\Debug\v7_2012.Resources.resources
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\obj\Debug\v7_2012.vbproj.GenerateResource.Cache
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\obj\Debug\v7_2012.dll
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\obj\Debug\v7_2012.xml
+C:\Users\TOSHIBA\Documents\Visual Studio 2008\Projects\v7_2012\v7_2012\obj\Debug\v7_2012.pdb

@@ -1,0 +1,143 @@
+Dossier 1 
+
+UML 
+
+----------
+Dossier 2
+Q 1 
+
+select electeur.* from electeur innerjoin votes 
+on electeur.idelecteur = votes.idelecteur 
+having count(cotes.idelecteur )=1 and avoté=1 
+groupe by cotes.idelecteur
+
+Q2
+ select top(3) count(v.idCandidat) as les_votes from Candidat c , Vote v 
+where c.idcondidat = v.idCandidat 
+group by c.nomcondiat 
+order by c.datenaissance
+
+Q3 
+
+create function nom_function (@idcandidat int)
+returns table
+as
+begin
+
+return select * from Electeurs E inner join Votes V 
+on E.idElecteur=V.idElecteur 
+having V.idCandidat=@idcandidat and E.aVoté=1
+end
+
+Q4
+
+Create trigger nom_trigger on votes
+before insert
+as
+begin
+declare @idcandida int
+select @idcandida = IdCandidat from inserted
+Update Candidats set nombreVoix=nombreVoix+1 
+where idCandidat=@idcandida
+end
+
+Q5
+create proc nom-procedure(@idElect int,@idcandidat1 int,@idcandidat2 int,@idcandidat3 int)
+as
+begin
+if(@idcandidat1=NULL and @idcandidat1=NULL and @idcandidat1=NULL)
+Print "Errer dans l'insertion veuillez choisir au moins un candidat"
+if(@idcandidat1 !=NULL)
+insert into Votes values((@idElect,@idcandidat1)
+if(@idcandidat2 !=NULL)
+insert into Votes values((@idElect,@idcandidat2)
+if(@idcandidat3 !=NULL)
+insert into Votes values((@idElect,@idcandidat3)
+end
+
+---------------------
+Dossier 3 :
+1)
+a:
+/seances/seance/formateur/text(CHAKIR Said)
+b:
+/seances/seance/salle/text(TDI201)
+c:
+count(/seances/seance[@debut="08:00"])
+
+
+2)
+a ) for-each peut être utilisé pour sélectionner chaque élément XML d'un ensemble de nœuds spécifié
+b) l'affichage va nous donner un tableau avec une bordure de 1px qui contient 3colonnes et 3 lignes
+c) <xsl:p.value= of select ='.10jours'>
+
+---------------
+
+Dossier 4 
+
+1-
+<htm>
+<head>
+<title>Dossier4</title>
+</head>
+<body>
+<h1>Calcul valeur énergétique d'un repas</h1>
+<h3>Choisir les aliments qui composent votre repas :</h3>
+<FORM>
+<INPUT type="checkbox" name="choix1" value="1" Checked> Pain : <INPUT type="text" name="choix1" value="100"> grammes </br>
+<INPUT type="checkbox" name="choix2" value="2" Checked> Viande : <INPUT type="text" name="choix1" value="80"> grammes</br>
+<INPUT type="checkbox" name="choix3" value="3" Checked> Légumes : <INPUT type="text" name="choix1" value="150"> grammes</br>
+<INPUT type="checkbox" name="choix4" value="4"> Banane : <INPUT type="text" name="choix1" value=""> unité</br>
+<INPUT type="checkbox" name="choix5" value="5" Checked> Pomme :<INPUT type="text" name="choix1" value="1"> unité</br>
+<INPUT type="checkbox" name="choix6" value="6"> Yaourt : <INPUT type="text" name="choix1" value=""> unité</br>
+<INPUT type="button" name="calculer" value="Calculer">
+</FORM>
+<b>La valeur énergétique de votre repas est : <INPUT type="text" name="choix1" value="559"> Kilo Calories</b>
+</body>
+</html>
+
+Q2
+ <script>
+
+function validation()
+{
+if ( document.getElementById("pain").checked == false && document.getElementById("viande").checked == false && document.getElementById("legume").checked == false
+&& document.getElementById("banane").checked == false && document.getElementById("pomme").checked == false && document.getElementById("yaourt").checked == false )
+{
+alert('cocher au moin un champ !! ');
+
+}
+else {
+var x1 = parseInt(document.getElementById("painbox").value );
+var x2 = parseInt(document.getElementById("viandebox").value);
+var x3 = parseInt(document.getElementById("legumebox").value);
+var x4 = parseInt(document.getElementById("bananebox").value );
+var x5 = parseInt(document.getElementById("pommebox").value) ;
+var x6 = parseInt(document.getElementById("yaourtbox").value) ;
+document.getElementById("result").value = x1 + x2 + x3 +x4 + x5 + x6 ;
+
+}
+
+}
+
+</script>
+
+-----------------
+
+
+Dossier (5) :
+
+1. Physique Transmission des signaux sous forme binaire 
+
+2La couche « liaison de données » gère les communications entre 2 machines directement connectées entre elles, ou connectées à un équipement qui émule une connexion directe (commutateur).
+
+3-
+1. Physique Transmission des signaux sous forme binaire
+2. Liaison Adressage physique (Adresse MAC)
+
+/4 La couche « transport » gère les communications de bout en bout entre processus (programmes en cours d'exécution)./5La couche « session » gère la synchronisation des échanges et les « transactions », permet l'ouverture et la fermeture de session.
+131.107.2.89 ====> B | 3.3.57.1====>A | 196.179.110015 ====>c | 120.55.55.55 ====> A
+
+5. Session Communication Interhost, gère les sessions entre les différentes applications
+
+-------------

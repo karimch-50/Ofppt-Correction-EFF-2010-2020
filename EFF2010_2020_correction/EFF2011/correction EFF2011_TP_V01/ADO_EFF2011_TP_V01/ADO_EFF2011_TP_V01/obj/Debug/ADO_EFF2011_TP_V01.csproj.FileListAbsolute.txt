@@ -1,0 +1,14 @@
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\bin\Debug\ADO_EFF2011_TP_V01.exe.config
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.csprojResolveAssemblyReference.cache
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.MAJ_AutoCares.resources
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.Menu.resources
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.Properties.Resources.resources
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.csproj.GenerateResource.Cache
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\bin\Debug\ADO_EFF2011_TP_V01.exe
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\bin\Debug\ADO_EFF2011_TP_V01.pdb
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.exe
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.pdb
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.Saisie_Calendrier.resources
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.List_Voyage_Assurer.resources
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.Imprimer_Calendrier.resources
+C:\Users\karim\Documents\Visual Studio 2012\Projects\ADO_EFF2011_TP_V01\ADO_EFF2011_TP_V01\obj\Debug\ADO_EFF2011_TP_V01.Total_Kilometre.resources

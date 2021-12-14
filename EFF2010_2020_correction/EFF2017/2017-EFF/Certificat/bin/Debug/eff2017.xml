@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Certificats>
+    <num_certificat>1</num_certificat>
+    <description>DescriptionCertificat1</description>
+    <date_depot>2015-01-01T00:00:00+00:00</date_depot>
+    <date_validation>2016-02-03T00:00:00+00:00</date_validation>
+    <num_auteur>1</num_auteur>
+    <num_innovation>2</num_innovation>
+  </Certificats>
+  <Certificats>
+    <num_certificat>2</num_certificat>
+    <description>description2</description>
+    <date_depot>2012-02-20T00:00:00+00:00</date_depot>
+    <date_validation>2013-02-20T00:00:00+00:00</date_validation>
+    <num_auteur>2</num_auteur>
+    <num_innovation>3</num_innovation>
+  </Certificats>
+</DocumentElement>

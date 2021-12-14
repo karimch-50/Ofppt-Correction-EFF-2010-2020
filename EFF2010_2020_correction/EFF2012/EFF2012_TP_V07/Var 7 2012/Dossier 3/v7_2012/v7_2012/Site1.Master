@@ -1,0 +1,28 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="v7_2012.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Page sans titre</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/connexion.aspx">Q2</asp:LinkButton>
+&nbsp;|
+        <asp:LinkButton ID="LinkButton2" runat="server">Q3</asp:LinkButton>
+&nbsp;|
+        <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/Q4.aspx">Q4</asp:LinkButton>
+&nbsp;|
+        <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/Q5.aspx">Q5</asp:LinkButton>
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

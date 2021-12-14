@@ -1,0 +1,7 @@
+1)
+   a)
+	count(//dossier_medical[maladie="hypertension"])
+   b)
+	//pelerin[@sexe="F"]/dossier_medical/enceinte
+   c)
+	//pelerin[@idccompagnateur="P456"]/dossier_medical

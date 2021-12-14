@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Q2.master.cs" Inherits="Dossier3.Q2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Q4.aspx">Q4</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Q5.aspx">Q5</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Q6.aspx">Q6</asp:HyperLink>
+        <asp:HyperLink runat="server" NavigateUrl="~/Q7_b.aspx">Q7</asp:HyperLink>
+        
+    </div>
+    </form>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</body>
+</html>

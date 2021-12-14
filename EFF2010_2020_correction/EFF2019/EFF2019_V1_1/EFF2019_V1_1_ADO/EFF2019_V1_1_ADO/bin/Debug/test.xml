@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <Id_Inscription>6</Id_Inscription>
+    <date_Demende>2021-01-01T00:00:00+01:00</date_Demende>
+    <Id_Volentaire>3</Id_Volentaire>
+    <Id_Stage>3</Id_Stage>
+    <Nom_Vlt>NV3</Nom_Vlt>
+    <Prenom_Vlt>PV3</Prenom_Vlt>
+    <Etat>accepte</Etat>
+  </Table>
+  <Table>
+    <Id_Inscription>11</Id_Inscription>
+    <date_Demende>2021-05-26T00:00:00+01:00</date_Demende>
+    <Id_Volentaire>2</Id_Volentaire>
+    <Id_Stage>3</Id_Stage>
+    <Nom_Vlt>NV2</Nom_Vlt>
+    <Prenom_Vlt>PV2</Prenom_Vlt>
+    <Etat>En Attente</Etat>
+  </Table>
+  <Table>
+    <Id_Inscription>12</Id_Inscription>
+    <date_Demende>2021-05-26T00:00:00+01:00</date_Demende>
+    <Id_Volentaire>2</Id_Volentaire>
+    <Id_Stage>3</Id_Stage>
+    <Nom_Vlt>NV2</Nom_Vlt>
+    <Prenom_Vlt>PV2</Prenom_Vlt>
+    <Etat>En Attente</Etat>
+  </Table>
+  <Table>
+    <Id_Inscription>13</Id_Inscription>
+    <date_Demende>2021-05-26T00:00:00+01:00</date_Demende>
+    <Id_Volentaire>2</Id_Volentaire>
+    <Id_Stage>3</Id_Stage>
+    <Nom_Vlt>NV2</Nom_Vlt>
+    <Prenom_Vlt>PV2</Prenom_Vlt>
+    <Etat>En Attente</Etat>
+  </Table>
+  <Table>
+    <Id_Inscription>14</Id_Inscription>
+    <date_Demende>2021-05-26T00:00:00+01:00</date_Demende>
+    <Id_Volentaire>2</Id_Volentaire>
+    <Id_Stage>3</Id_Stage>
+    <Nom_Vlt>NV2</Nom_Vlt>
+    <Prenom_Vlt>PV2</Prenom_Vlt>
+    <Etat>En Attente</Etat>
+  </Table>
+  <Table>
+    <Id_Inscription>21</Id_Inscription>
+    <date_Demende>2021-05-26T00:00:00+01:00</date_Demende>
+    <Id_Volentaire>2</Id_Volentaire>
+    <Id_Stage>3</Id_Stage>
+    <Nom_Vlt>NV2</Nom_Vlt>
+    <Prenom_Vlt>PV2</Prenom_Vlt>
+    <Etat>En Attente</Etat>
+  </Table>
+  <Table>
+    <Id_Ass>3</Id_Ass>
+    <Nom_Ass>NA3</Nom_Ass>
+    <RaisonSocial>RaisonSocial3</RaisonSocial>
+    <Adresse>Adresse3</Adresse>
+    <Telephone>0600000002</Telephone>
+    <Id_Ville>3</Id_Ville>
+  </Table>
+</NewDataSet>

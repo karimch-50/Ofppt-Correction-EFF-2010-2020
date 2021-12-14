@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript" src="javascript_file.js"></script>
+    <link rel="stylesheet" href="css_file.css">
+</head>
+<body>
+    <fieldset>
+        <fieldset>
+            <input type="radio" name="N1" id="radio1">
+            <label>Femme</label>
+            <input type="radio" name="N1" id="radio2">
+            <label>Homme</label>
+            <br>
+            <input type="checkbox" id="checkbox">
+            <label>oui je suis une Societe</label>
+            <br>
+            <label>Nom Societe:</label>
+            <br>
+            <input type="text" id="T1">
+            <br>
+            <label>Titre Profil*:</label>
+            <br>
+            <input type="text" placeholder="EX:Developpeur Senior en PHP..." id="T2">
+            <br>
+            <label>Pays/Ville*:</label>
+            <br>
+            <select aria-placeholder="-Veullez choisir-" id="S">
+                <option value="casablanca">casablanca</option>
+                <option value="rabat">rabat</option>
+                <option value="agadir">agadir</option>
+            </select>
+            <br>
+            <label>Telephone*:</label>
+            <br>
+            <input type="text" id="T3">
+        </fieldset>
+        <fieldset>
+            <label>Disponibilite*:</label>
+            <br>
+            <input type="checkbox" id="checkbox1">
+            <label>(A Distance uniquement)</label>
+            <br>
+            <label>Tarif*:</label>
+            <input type="text" placeholder="EX:400" id="T4">
+            <label>DH/Jour</label>
+            <h4>Competences maitrisees</h3>
+            <select id="S1">
+                <option value="PHP/MySQL">PHP/MySQL</option>
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+            </select>
+            <select id="S2">
+                <option value="Senior">Senior</option>
+            </select>
+            <input type="button" value="Ajouter" id="B1" onclick="F1()">
+            <h3>Liste de vos competences</h3>
+            <textarea name="" id="Tt1" cols="18" rows="1"></textarea>
+            <br>
+            <input type="Button" value="Valider" id="B2" onclick="F2()">
+        </fieldset>
+    </fieldset>
+</body>
+
+</html>

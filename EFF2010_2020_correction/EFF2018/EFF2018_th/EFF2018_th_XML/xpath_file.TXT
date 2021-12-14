@@ -1,0 +1,5 @@
+1)
+  a)
+     //plante[zone="3"]
+  b)
+     //plante[QuantiteStock>"0"]

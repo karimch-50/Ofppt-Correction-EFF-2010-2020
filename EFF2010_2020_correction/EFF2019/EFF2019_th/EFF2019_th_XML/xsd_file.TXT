@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="pelerinages">
+<xsd:complexType>
+<xsd:sequence minOccurs="1" maxOccurs="1">
+    <xsd:element name="pelerinage">
+	<xsd:complexType>
+	<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+		<xsd:element name="pelerin">
+		<xsd:complexType>
+        <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+		    <xsd:element name="nom" type="xsd:string"/>
+		    <xsd:element name="prenom" type="xsd:string"/>
+			<xsd:element name="dossier_medical">
+			<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="1">
+				<xsd:element name="maladie" type="xsd:string"/>
+                    <xsd:element name="enceinte">
+			        <xsd:complexType>
+			        <xsd:sequence minOccurs="1" maxOccurs="1">
+
+                    </xsd:sequence>
+                        <xsd:attribute name="semaine" type="xsd:int"/>
+                    </xsd:complexType>
+                    </xsd:element>
+			</xsd:choice>
+            <xsd:attribute name="group_sanguin" type="xsd:string"/>
+			</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+        <xsd:attribute name="num" type="xsd:string"/>
+        <xsd:attribute name="sexe" type="xsd:string"/>
+        <xsd:attribute name="nationalite" type="xsd:string"/>
+        <xsd:attribute name="age" type="xsd:int"/>
+        <xsd:attribute name="idaccompagnateur" type="xsd:string"/>
+		</xsd:complexType>
+		</xsd:element>
+	</xsd:sequence>
+    <xsd:attribute name="annee" type="xsd:int"/>
+	</xsd:complexType>
+	</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

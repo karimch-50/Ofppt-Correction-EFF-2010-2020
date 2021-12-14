@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="var1_2011_asp.net.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <style type="text/css">
+    div#menu{float: left; width: 200px; height: 100%}
+    div#centent {margin-left: 220px; width: auto; height:100% }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="menu">
+    
+        <asp:Menu ID="Menu1" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Accueil" Value="Accueil">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Login" Value="Login"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/miseajour_gridview.aspx" Text="Mise Ajour GridView" 
+                    Value="Mise Ajour"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Imprimer.aspx" Text="Imprimer Calander" 
+                    Value="Imprimer Calander"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/XML.aspx" Text="Fichie XML" Value="Fichie XML">
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/DisplayXML.aspx" Text="Display XML" 
+                    Value="Display XML"></asp:MenuItem>
+            </Items>
+            <StaticItemTemplate>
+<%# Eval("Text") %>
+            </StaticItemTemplate>
+        </asp:Menu>
+    
+    </div>
+    <div id="centent">
+    <asp:contentplaceholder id="main" runat="server">
+    </asp:contentplaceholder>
+    
+    </div>
+    </form>
+</body>
+</html>

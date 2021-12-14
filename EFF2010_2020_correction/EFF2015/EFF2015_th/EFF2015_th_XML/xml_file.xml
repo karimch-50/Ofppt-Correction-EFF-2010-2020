@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="xsl_file.xsl"?>
+<seances>
+	<seance jour="Iundi" debuE="09:00" fin="1O:30">
+		<salle>S1</salle>
+		<module>SGBDR I</module>
+		<formateur>CHAKIR Said</formateur>
+		<groupe>TDI201</groupe>
+	</seance>
+	<seance jour="Iundi" debuE="10:30" fin="13:00">
+		<salle>S2</salle>
+		<module>Reseaux</module>
+		<formateur>TAHIR Nadia</formateur>
+		<groupe>TDI201</groupe>
+	</seance>
+	<seance jour="mardi" debuE="08:00" fin="1O:30">
+		<salle>S1</salle>
+		<module>SGBDR I</module>
+		<formateur>CHAKIR Said</formateur>
+		<groupe>TDI202</groupe>
+	</seance>
+</seances>

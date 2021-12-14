@@ -1,0 +1,12 @@
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\bin\Debug\EFF2019_V1_1_ADO.exe.config
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\bin\Debug\EFF2019_V1_1_ADO.exe
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\bin\Debug\EFF2019_V1_1_ADO.pdb
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.csprojAssemblyReference.cache
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.Form1.resources
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.List_Stages.resources
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.MAJ_Asosiation.resources
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.Properties.Resources.resources
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.csproj.GenerateResource.cache
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.csproj.CoreCompileInputs.cache
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.exe
+C:\Users\karim\source\repos\EFF2019_V1_1_ADO\EFF2019_V1_1_ADO\obj\Debug\EFF2019_V1_1_ADO.pdb

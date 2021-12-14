@@ -1,0 +1,13 @@
+1)
+  a)
+     //seance[formateur="CHAKIR Said"]
+  b)
+     //seance[group="TDI201"]/salle
+  c)
+     count(//seance[@debut="08:00"])
+2)
+  a)boucle pour afficher toutes les seance d'une seances 
+  b)go to screenshot int the same document	
+  c)
+    <td>jours</td>
+    <td><xsl:value-of select="@jours"></td>

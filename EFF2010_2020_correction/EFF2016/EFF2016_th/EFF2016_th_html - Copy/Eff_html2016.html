@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_file.css">
+    <script lang="javascript" src="javascript_file.js"></script>
+    <script src="jquery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Vente Pizza</h1>
+        <table>
+            <tr>
+                <td>
+                    <label>Nom du client:</label>
+                </td>
+                <td>
+                    <input type="text" id="TT1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Adresse:</label>
+                </td>
+                <td>
+                    <input type="text" id="TT2">
+                </td>
+            </tr>
+        </table>
+        <h3>Produite a achter</h3>
+        <table border="2">
+            <tr>
+                <th><b>Nom du produit</b></th>
+                <th><b>Prix unitaire en DH</b></th>
+                <th><b>Quantite</b></th>
+            </tr>
+            <tr>
+                <td>Pizza 4 fromages</td>
+                <td>80</td>
+                <td><input type="text" id="T1"></td>
+            </tr>
+            <tr>
+                <td>Pizza Herbo</td>
+                <td>75</td>
+                <td><input type="text" id="T2"></td>
+            </tr>
+            <tr>
+                <td>Pizza Viande hachee</td>
+                <td>100</td>
+                <td><input type="text" id="T3"></td>
+            </tr>
+            <tr>
+                <td>Pizza fruit de mer</td>
+                <td>120</td>
+                <td><input type="text" id="T4"></td>
+            </tr>
+        </table>
+        <fieldset>
+        <h5>Paiement par:</h5>
+        <input type="radio" name="N1" id="R1" onclick="F3()">
+        <label>Carte bancaire</label>
+        <input type="radio" name="N1" id="R2" onclick="F2()">
+        <label>Cheque</label>
+        <br>
+        <label>Numero de la carte bancaire:</label>
+        <input type="text" id="TT3">
+        <br>
+        <input type="button" value="Envoyer1" onclick="F1()" id="B1">
+        <input type="button" value="Envoyer2" id="B2">
+        <br>
+        <label><i>Merci de votre visite,le montant total de votre commande est :</i></label>
+        <input type="text" id="Ttt3">
+    </fieldset>
+</fieldset>
+<script>
+    $(document).ready(function(){
+      $('#B2').click(function(){
+          var sum=0;
+          if($('#TT1').val()==""||$('#TT2').val()=="")
+          {
+              alert("tu doit remplire touts les textbox");
+          }
+          else
+          {
+              if($('#T1').val()=="" &&$('#T2').val()=="" &&$('#T3').val()=="" &&$('#T4').val()=="")
+              {
+                alert("tu doit achter une pizza");
+              }
+              else
+              {
+                  if($('#T1').val()!="")
+                  {
+                    sum+=$('#T1').val()*80;
+                  }
+                  if($('#T2').val()!="")
+                  {
+                    sum+=$('#T2').val()*75;
+                  }
+                  if($('#T3').val()!="")
+                  {
+                    sum+=$('#T3').val()*100;
+                  }
+                  if($('#T4').val()!="")
+                  {
+                    sum+=$('#T4').val()*120;
+                  }
+                  $('#Ttt3').val(sum);
+              }
+          }  
+      });
+    });
+</script>
+</body>
+</html>

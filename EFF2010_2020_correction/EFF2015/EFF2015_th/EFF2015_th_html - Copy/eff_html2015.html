@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script lang="javascript" src="javascript_file.js"></Script>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="css_file.css">
+</head>
+<body>
+    <form>
+<fieldset>
+    <!-- <legend>test</legend> -->
+<h1>Calculer valeur energetique d'un repas</h1>
+<h5>Choisir les aliments qui composent votre repas:</h5>
+<table>
+    <tr>
+        <td>
+            <input type="checkbox" id="1">
+            <label>Pain:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="100" id="T1">
+            <label>grammes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="2">
+            <label>Viande:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="80"  id="T2">
+            <label>grammes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="3">
+            <label>Legumes:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="150"  id="T3">
+            <label>grammes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="4">
+            <label>Banane:</label>
+        </td>
+        <td>
+            <input type="text"  id="T4">
+            <label>unites</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="5">
+            <label>Pomme:</label>
+        </td>
+        <td>
+            <input type="text" placeholder="1"  id="T5">
+            <label>unites</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="6" >
+            <label>Yaourt:</label>
+        </td>
+        <td>
+            <input type="text"  id="T6">
+            <label>unites</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td align="center">
+                <input type="button" value="Calculer1" onclick="F1()" >
+                <input type="button" value="Calculer2" id="B1" >            
+                    <input type="reset">
+                
+        </td>
+    </tr>
+</table>
+<br>
+<label><b>La valeur energetique de votre repas est:</b></label>
+<input type="text" placeholder="559" id="T7">
+<label><b>Kilo calories</b></label>  
+</fieldset>
+<script lang="javascript">
+    $(document).ready(function(){
+      $('#B1').click(function(){
+          var A=0;
+          alert($('#1:checked').val());
+          if($('#1:checked').val()||$('#2:checked').val()||$('#3:checked').val()||$('#4:checked').val()||$('#5:checked').val()||$('#6:checked').val())
+          {
+            if($('#1:checked').val())
+            {
+                A+=$('#T1').val()*2.75;
+            }
+            if($('#2:checked').val())
+            {
+                A+=$('#T2').val()*1.8;
+            }
+            if($('#3:checked').val())
+            {
+                A+=$('#T3').val()*0.4;
+            }
+            if($('#4:checked').val())
+            {
+                A+=$('#T4').val()*116;
+            }
+            if($('#5:checked').val())
+            {
+                A+=$('#T5').val()*80;
+            }
+            if($('#6:checked').val())
+            {
+                A+=$('#T6').val()*140;
+            }
+            $('#T7').val(A);
+          }
+          else
+          {
+              alert("erreur");
+          }
+      });
+    });
+    </script>
+</form>
+</body>
+</html>

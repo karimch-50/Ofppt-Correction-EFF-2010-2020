@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema  xmlns:xsd="https://www.W3.org/2001/XMLSchema">
+<xsd:element name="Catalogue">
+<xsd:complexType>
+<xsd:sequence minOccurs="1" maxOccurs="1">
+	<xsd:element name="Plante">
+	<xsd:complexType>
+	<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+		<xsd:element name="NomCommun" type="xsd:string"/>
+		<xsd:element name="NomBotanique" type="xsd:string"/>
+		<xsd:element name="zone" type="xsd:int"/>
+		<xsd:element name="Eclairage" type="xsd:string"/>
+		<xsd:element name="Prix" type="xsd:float"/>
+		<xsd:element name="QuantiteStock" type="xsd:int"/>
+	</xsd:sequence>
+	</xsd:complexType>
+	</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+
+

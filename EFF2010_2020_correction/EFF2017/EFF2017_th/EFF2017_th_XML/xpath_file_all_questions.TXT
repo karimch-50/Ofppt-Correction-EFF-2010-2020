@@ -1,0 +1,14 @@
+1)
+  a)
+     //compte[@adresse="abc@gmail.com"]/message[@type="envoi"]
+  b)
+     //compte[etat="occupe"]
+  c)
+     count(//message[priorite="Eleve"])
+2)
+le role de value-of est obtenir la valeur d'un attribut a partire d'un fichier xml
+3)
+<xsl:for-each select="courriers/compte/message">
+</xsl:fro-each>
+4)
+<xsl:for-each select="courriers/compte/message[priorite="Eleve"]">

@@ -1,0 +1,14 @@
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Form1.resources
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Properties.Resources.resources
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Q2_a_b.resources
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Q3.resources
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Q4.resources
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.csproj.GenerateResource.Cache
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\bin\Debug\Dossier2.exe
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\bin\Debug\Dossier2.pdb
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.exe
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.pdb
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\bin\Debug\Dossier2.exe.config
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.csprojResolveAssemblyReference.cache
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Q6.resources
+C:\Users\Zakaria\Desktop\Mehdi Lfadeli\Dossier2\Dossier2\Dossier2\obj\x86\Debug\Dossier2.Q7.resources

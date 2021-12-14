@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript" src="javascript_file.js"></script>
+</head>
+<body onload="F1()">
+    <fieldset>
+        <input type="radio" name="N1" id="R1">
+        <label>Madame</label>
+        <input type="radio" name="N1" id="R2">
+        <label>Mademoiselle</label>
+        <input type="radio" name="N1" id="R3">
+        <label>Monsieur</label>
+        <table>
+            <tr>
+                <td>
+                    <label>Votre prenom :*</label>
+                </td>
+                <td>
+                    <input type="text" id="T1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Votre nom :*</label>
+                </td>
+                <td>
+                    <input type="text" id="T2" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Telephone :*</label>
+                </td>
+                <td>
+                    <input type="text" id="T3" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Ville *</label>
+                </td>
+                <td>
+                    <select id="S1">
+                        <option value="casablanca" required>casablanca</option>
+                        <option value="Rabat">Rabat</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Intituler de votre blague :*</label>
+                </td>
+                <td>
+                    <input type="text" id="T4" required>
+                </td>
+            </tr>
+        </table>
+        <label>Votre Blague*:</label>
+        <br>
+        <textarea name="" id="S2" cols="30" rows="10" required></textarea>
+        <br>
+        <!-- Quel est le resultat de l'expression : -->
+        <label id="label"></label>
+        <input type="text" id="T5" required>
+        <br>
+        <input type="button" value="Sauvgarder" onclick="F2()">
+        <input type="button" value="Annuler" onclick="self.close()">
+    </fieldset>
+</body>
+</html>

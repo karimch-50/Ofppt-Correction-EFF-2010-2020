@@ -1,0 +1,243 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+v7_2012
+</name>
+</assembly>
+<members>
+<member name="F:v7_2012.WebForm6.GridView1">
+	<summary>
+Contrôle GridView1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm6.Button1">
+	<summary>
+Contrôle Button1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm5.Label1">
+	<summary>
+Contrôle Label1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.TextBox1">
+	<summary>
+Contrôle TextBox1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.TextBox2">
+	<summary>
+Contrôle TextBox2.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.TextBox3">
+	<summary>
+Contrôle TextBox3.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.TextBox4">
+	<summary>
+Contrôle TextBox4.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.TextBox5">
+	<summary>
+Contrôle TextBox5.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.TextBox6">
+	<summary>
+Contrôle TextBox6.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.Button1">
+	<summary>
+Contrôle Button1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.Button2">
+	<summary>
+Contrôle Button2.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.Button3">
+	<summary>
+Contrôle Button3.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm3.GridView1">
+	<summary>
+Contrôle GridView1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm1.TextBox1">
+	<summary>
+Contrôle TextBox1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm1.TextBox2">
+	<summary>
+Contrôle TextBox2.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm1.Button1">
+	<summary>
+Contrôle Button1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm2.GridView1">
+	<summary>
+Contrôle GridView1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm4.DropDownList1">
+	<summary>
+Contrôle DropDownList1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm4.GridView1">
+	<summary>
+Contrôle GridView1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm4.Label1">
+	<summary>
+Contrôle Label1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.WebForm4.LinkButton3">
+	<summary>
+Contrôle LinkButton3.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.head">
+	<summary>
+Contrôle head.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.form1">
+	<summary>
+Contrôle form1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.LinkButton1">
+	<summary>
+Contrôle LinkButton1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.LinkButton2">
+	<summary>
+Contrôle LinkButton2.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.LinkButton3">
+	<summary>
+Contrôle LinkButton3.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.LinkButton4">
+	<summary>
+Contrôle LinkButton4.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012.Site1.ContentPlaceHolder1">
+	<summary>
+Contrôle ContentPlaceHolder1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member><member name="F:v7_2012._Default.form1">
+	<summary>
+contrôle form1.
+</summary>
+	<remarks>
+Champ généré automatiquement.
+Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+</remarks>
+</member>
+</members>
+</doc>

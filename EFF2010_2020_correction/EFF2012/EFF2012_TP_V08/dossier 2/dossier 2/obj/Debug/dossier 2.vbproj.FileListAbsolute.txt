@@ -1,0 +1,13 @@
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier_2.MDIParent1.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier_2.Resources.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier_2.Question_2.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier_2.Question6.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier 2.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\bin\Debug\dossier 2.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\bin\Debug\dossier 2.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\bin\Debug\dossier 2.xml
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier 2.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier 2.xml
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier 2.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\dossier 2\dossier 2\obj\Debug\dossier_2.Question_3.resources

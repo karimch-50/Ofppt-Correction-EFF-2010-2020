@@ -1,0 +1,17 @@
+2)	
+Non un même juge ne peut pas voter  2 fois pour le même film  du fait de la contrainte de clé primaire composée : (codeF, CodeJuge).  (1pt)
+3)
+Create table Film (codeF number(8) primary key,
+Titre varchar2(100), description varchar2(200), langue varchar2(20), anneeProduction number(4), codeCat number(4),
+Constraint fk_cat_categorie foriegn key (codeCat) references categorie (codeCat)) ;
+4)
+Alter table Film
+Add constraint ck_annee_film (check anneeProduction<=to_char(sysdate,’fmyyyy’));
+5)
+Select codeF, titre, descriptin, langue, anneeProduction From Film f join categorie c using (codecat) Where libelle=’Action’ and anneeProduction>=2016;
+6)
+Select nom, prenom From jury j join vote v using (codeJuge) join Film f using (codeF) Where titre=’Avatar’;
+7)
+Select titre, count(*) nombredevote From film join vote using (codeF) Group by titre Order by nombredevote desc;
+8) 
+Select nom , prenom From juge join vote using (codejuge) Where codeF in (select codef from vote join juge using(codejuge) where nom=’ADAMS’ and prenom=’Jhon’);

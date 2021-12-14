@@ -1,0 +1,10 @@
+1)
+//satellite[@nomsat="HotBiird"]/chaine
+2)
+//chaine[@dateLencement>="01/01/2001"]
+3)
+count(//satellite[@nomsat="NileSat"]/chaine)
+a)
+le role de <xs:complexType> et <xs:sequence> est:??
+b)
+<xs:element name="debit" type="xs:int">

@@ -1,0 +1,45 @@
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.dll
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.pdb
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.xml
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.Resources.resources
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.vbproj.GenerateResource.Cache
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.dll
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.xml
+C:\Users\yassin\Desktop\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.pdb
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.dll
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.pdb
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.xml
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.Resources.resources
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.vbproj.GenerateResource.Cache
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.dll
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.xml
+C:\Users\yassin\Desktop\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.pdb
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.dll
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.pdb
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.xml
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\ResolveAssemblyReference.cache
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.Resources.resources
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.vbproj.GenerateResource.Cache
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.dll
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.xml
+G:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.pdb
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.dll
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.pdb
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.xml
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\ResolveAssemblyReference.cache
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.Resources.resources
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.vbproj.GenerateResource.Cache
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.dll
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.xml
+I:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.pdb
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.dll
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.pdb
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\bin\var1_2011_asp.net.xml
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\ResolveAssemblyReference.cache
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.Resources.resources
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.vbproj.GenerateResource.Cache
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.dll
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.xml
+F:\recovry\Examen fin formation\var1\var1_2011_asp.net\var1_2011_asp.net\obj\Debug\var1_2011_asp.net.pdb

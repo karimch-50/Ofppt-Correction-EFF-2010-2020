@@ -1,0 +1,8 @@
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\bin\Debug\EFF2014.exe
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\bin\Debug\EFF2014.pdb
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\obj\x86\Debug\EFF2014.MENU.resources
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\obj\x86\Debug\EFF2014.Properties.Resources.resources
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\obj\x86\Debug\EFF2014.QUESTION1.resources
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\obj\x86\Debug\EFF2014.csproj.GenerateResource.Cache
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\obj\x86\Debug\EFF2014.exe
+C:\Users\Hind\Desktop\ADO.NET\EFF2014\EFF2014\obj\x86\Debug\EFF2014.pdb

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="xsl_file.xsl"?>
+<courriers>
+    <compte adresse="abc@gmail.com" dateCreation="11/03/2014">
+        <etat>disponible</etat>
+        <message type="envoi">
+            <date>15/01/2015</date>
+            <objet>reunion</objet>
+            <priorite>elevee<priorite>
+            <contenu>une reanion se deroulera le 18/01/2015 a 10h</contenu>
+        </message>
+        <message type="reception">
+            <date>22/03/2015</date>
+            <objet>anniversaire</objet>
+            <priorite>moyenne<priorite>
+            <contenu>joyeux anniversaire</contenu>
+        </message>
+    </compte>
+    <compte adresse="abdelkader@hotmail.com" dateCreation="10/08/2011">
+        <etat>occupe</etat>
+        <message type="envoi">
+            <date>12/10/2016</date>
+            <objet>felicitation</objet>
+            <priorite>faible<priorite>
+            <contenu>Felicitation pour votre dernier expose bien reussi</contenu>
+        </message>
+    </compte>
+</courriers>
