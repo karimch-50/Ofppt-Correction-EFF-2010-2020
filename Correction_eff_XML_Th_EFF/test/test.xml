@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE group SYSTEM "test.dtd"> -->
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<group>
+<!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="test.xsd"> -->
+    <stagiaire>
+        <nom>N1</nom>
+        <prenom>P1</prenom>
+        <age>18</age>
+    </stagiaire>
+    <stagiaire>
+        <nom>N2</nom>
+        <prenom>P2</prenom>
+        <age>19</age>
+    </stagiaire>
+    <stagiaire>
+        <nom>N3</nom>
+        <prenom>P3</prenom>
+        <age>20</age>
+    </stagiaire>
+</group>

@@ -1,0 +1,15 @@
+<!ELEMENT FestivaleRire (participant+)>
+<!ATTLIST participant idp CDATA #REQUIRED>
+<!ELEMENT participant (nom,prenom,civilite,tel,ville,blague)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT civilite (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT ville (idv,libellev)>
+<!ELEMENT idv (#PCDATA)>
+<!ELEMENT libellev (#PCDATA)>
+<!ELEMENT blague (titre,contenu,nbrvote)>
+<!ATTLIST blague idb CDATA #REQUIRED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT contenu (#PCDATA)>
+<!ELEMENT nbrvote (#PCDATA)>

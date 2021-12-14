@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE emission SYSTEM "dtd_file2.dtd">
+<?xml-stylesheet href="xsl_file2.xsl" type="text/xsl"?>
+<emission>
+<!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="xsd_file2.xsd"> -->
+    <satellite nomsat="NillSat" orbite="7* ouest">
+        <chaine nomch="Al Aoula" datLencement="15/06/1998">
+            <frequence>12207</frequence>
+            <polarisation>V</polarisation>
+            <debit>27500</debit>
+        </chaine>
+        <chaine nomch="2M Monde" datLencement="10/11/2001">
+            <frequence>11034</frequence>
+            <polarisation>V</polarisation>
+            <debit>27500</debit>
+        </chaine>
+        <chaine nomch="Arriadia" datLencement="26/06/2005">
+            <frequence>11450</frequence>
+            <polarisation>H</polarisation>
+            <debit>29700</debit>
+        </chaine>
+    </satellite>
+    <satellite nomsat="HotBird" orbite="13* Est">
+        <chaine nomch="TV 5 Monde" datLencement="15/03/2001">
+            <frequence>11200</frequence>
+            <polarisation>V</polarisation>
+            <debit>27500</debit>
+        </chaine>
+        <chaine nomch="Al Aoula" datLencement="22/12/2002">
+            <frequence>11441</frequence>
+            <polarisation>V</polarisation>
+            <debit>27500</debit>
+        </chaine>
+    </satellite>
+</emission>

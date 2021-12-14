@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript_file2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h2>Inscription au tirage au sort du pelerinage de l'annee 2022</h2>
+    </fieldset>
+    <label>Informations personnelles:</label>
+    <fieldset>
+        <table>
+            <Tr>
+                <td>CIN:</td>
+                <td><input type="text" placeholder="entrer votre CIN" id="T1"></td>
+            </Tr>
+            <Tr>
+                <td>NOM:</td>
+                <td><input type="text" placeholder="entrer votre NOM" id="T2"></td>
+            </Tr>
+            <Tr>
+                <td>PRENOM:</td>
+                <td><input type="text" placeholder="entrer votre PRENOM" id="T3"></td>
+            </Tr>
+            <Tr>
+                <td>Date du dernier pelerinage:</td>
+                <td><input type="date" id="date1" onblur="f1()"></td>
+            </Tr>
+            <Tr>
+                <td>sexe:</td>
+                <td>
+                    <input type="radio" name="sex" onclick="f2()" id="R1">
+                    <label>H</label>
+                    <input type="radio" name="sex" onclick="f3()" id="R2">
+                    <label>F</label>
+                </td>
+            </Tr>
+        </table>
+    </fieldset>
+    <lable id="label">Accompagnateur(Maharam)</lable>
+    <fieldset id="fieldset1">
+        <table>
+            <tr>
+                <td>CIN de l'accompagnateur</td>
+                <td>
+                    <select id="S1">
+                        <option value="BHXXXXXX">BHXXXXXX</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>lien familial</td>
+                <td>
+                    <select id="S2">
+                        <option value="pere">pere</option>
+                        <option value="mere">mere</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <lable>Dossier Modicale</lable>
+    <fieldset>
+        <tr>
+            <td>groupe sanguin</td>
+            <td>
+                <select id="S3">
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="B+">B+</option>
+                </select>
+            </td>
+        </tr>
+        <br>
+        <tr>
+            <td>maladies</td>
+            <td>
+                <textarea  id="textarea">Hypertension diabete</textarea>
+            </td>
+        </tr>
+    </fieldset>
+    <input value="s'inscrire" type="button" onclick="f4()">
+</body>
+</html>

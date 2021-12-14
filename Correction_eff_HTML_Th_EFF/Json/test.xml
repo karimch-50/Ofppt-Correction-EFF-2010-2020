@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FestivaleRire>
+    <participant idp="1">
+        <nom>nom1</nom>
+        <prenom>prenom1</prenom>
+        <civilite>Mr</civilite>
+        <tel>0000000000</tel>
+        <ville>
+            <idv>1</idv>
+            <libellev>Rabat</libellev>
+        </ville>
+        <blague idb="1">
+            <titre>titre1</titre>
+            <contenu>contenu1</contenu>
+            <nbrvote>2</nbrvote>
+        </blague>
+    </participant>
+    <participant idp="2">
+        <nom>nom2</nom>
+        <prenom>prenom2</prenom>
+        <civilite>Mr</civilite>
+        <tel>0000000000</tel>
+        <ville>
+            <idv>1</idv>
+            <libellev>Fes</libellev>
+        </ville>
+        <blague idb="2">
+            <titre>titre2</titre>
+            <contenu>contenu2</contenu>
+            <nbrvote>3</nbrvote>
+        </blague>
+    </participant>
+</FestivaleRire>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="list">
+<xsd:complexType>
+<xsd:sequence>
+    <xsd:element name="hotel" minOccurs="1" maxOccurs="unbounded">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element name="nom" type="xsd:string"/>
+        <xsd:element name="adresse" type="xsd:string"/>
+        <xsd:element name="ville" type="xsd:string"/>
+        <xsd:element name="tel" type="xsd:int" maxOccurs="unbounded"/>
+        <xsd:element name="fax" type="xsd:int" maxOccurs="unbounded"/>
+        <xsd:element name="mail" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="code" type="xsd:int"/>
+    </xsd:complexType>
+    </xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

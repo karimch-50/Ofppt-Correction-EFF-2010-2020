@@ -1,0 +1,8 @@
+<!ELEMENT Catalogue (Plante+)>
+<!ELEMENT Plante (NomCommun,NomBotanique,zone,Eclairage,Prix,QuantiteStock)>
+<!ELEMENT NomCommun (#PCDATA)>
+<!ELEMENT NomBotanique (#PCDATA)>
+<!ELEMENT zone (#PCDATA)>
+<!ELEMENT Eclairage (#PCDATA)>
+<!ELEMENT Prix (#PCDATA)>
+<!ELEMENT QuantiteStock (#PCDATA)>

@@ -1,0 +1,22 @@
+{
+    "participant":[{
+        "@idp":"1",
+        "nom":"nom1",
+        "prenom":"prenom1",
+        "civilite":"Mr",
+        "tel":"0000000000",
+        "ville":{"idv":"1","libellev":"Rabat"},
+        "blague":{"titre":"titre1","contenu":"contenu1","nbrvote":"2"}
+    },
+    {
+    "@idp":"2",
+    "nom":"nom2",
+    "prenom":"prenom2",
+    "civilite":"Mr",
+    "tel":"0000000000",
+    "ville":{"idv":"1","libellev":"Rabat"},
+    "blague":{"titre":"titre1","contenu":"contenu1","nbrvote":"2"}
+    }
+    ]
+}
+

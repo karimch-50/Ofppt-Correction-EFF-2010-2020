@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="emission">
+<xsd:complexType>
+<xsd:sequence>
+    <xsd:element name="satellite" maxOccurs="unbounded">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element name="chaine" maxOccurs="unbounded">
+        <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="frequence" type="xsd:int"/>
+            <xsd:element name="polarisation" type="xsd:string"/>
+            <xsd:element name="debit" type="xsd:int"/>
+        </xsd:sequence>
+        <xsd:attribute name="nomch" type="xsd:string"/>
+        <xsd:attribute name="datLencement" type="xsd:string"/>
+        </xsd:complexType>
+        </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="nomsat" type="xsd:string"/>
+    <xsd:attribute name="orbite" type="xsd:string"/>
+    </xsd:complexType>
+    </xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

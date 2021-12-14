@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascipt_file5.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Votre Pizza</h1>
+        <table>
+            <tr>
+                <td>Nom du client</td>
+                <td>
+                    <input type="text" id="TT1">
+                </td>
+            </tr>
+            <tr>
+                <td>Adresse</td>
+                <td>
+                    <input type="text" id="TT2">
+                </td>
+            </tr>
+        </table>
+        <h3>Votre Pizza</h3>
+        <table border="2" style="text-align: center;">
+            <tr>
+                <th>Nom du produite</th>
+                <th>Prix unitaire en DH</th>
+                <th>Quantite</th>
+            </tr>
+            <tr>
+                <td>Pezza 4 fromages</td>
+                <td>80</td>
+                <td><input type="text" id="TTT1"></td>
+            </tr>
+            <tr>
+                <td>Pezza Herbo</td>
+                <td>75</td>
+                <td><input type="text" id="TTT2"></td>
+            </tr>
+            <tr>
+                <td>Pezza Viande hachee</td>
+                <td>100</td>
+                <td><input type="text" id="TTT3"></td>
+            </tr>
+            <tr>
+                <td>Pezza fruits de mer</td>
+                <td>120</td>
+                <td><input type="text" id="TTT4"></td>
+            </tr>
+        </table>
+        <h4>Paiement par:</h4>
+        <input type="radio" name="N1" id="R1" onclick="f2()">
+        <label>Carte bancaire</label>
+        <input type="radio" name="N1" id="R2" onclick="f2()">
+        <label>Cheque</label>
+        <br>
+        <label>Numero de la carte bancaire:</label>
+        <input type="text" id="T1">
+        <br>
+        <input type="button" value="Envoyer" onclick="f1()">
+        <br>
+        <br>
+        <br>
+        <label><i>Merci de votre visite,le montant total de votre commande est:</i></label>
+        <input type="text" id="T2">
+    </fieldset>
+</body>
+</html>

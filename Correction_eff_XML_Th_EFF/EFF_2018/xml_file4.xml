@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Catalogue SYSTEM "dtd_file4.dtd">
+<?xml-stylesheet type="text/xsl" href="xsl_file4.xsl"?>
+<Catalogue>
+<!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="xsd_file4.xsd"> -->
+    <Plante>
+        <NomCommun>bloodroot</NomCommun>
+        <NomBotanique>sanguinaria canadensis</NomBotanique>
+        <zone>4</zone>
+        <Eclairage>ombrage</Eclairage>
+        <Prix>25</Prix>
+        <QuantiteStock>0</QuantiteStock>
+    </Plante>
+    <Plante>
+        <NomCommun>columbine</NomCommun>
+        <NomBotanique>aquilegia canadensis</NomBotanique>
+        <zone>3</zone>
+        <Eclairage>ombrage</Eclairage>
+        <Prix>100</Prix>
+        <QuantiteStock>7</QuantiteStock>
+    </Plante>
+    <Plante>
+        <NomCommun>marsh marigold</NomCommun>
+        <NomBotanique>caltha plustris</NomBotanique>
+        <zone>4</zone>
+        <Eclairage>Ensoleille</Eclairage>
+        <Prix>70</Prix>
+        <QuantiteStock>51</QuantiteStock>
+    </Plante>
+    <Plante>
+        <NomCommun>cowslip</NomCommun>
+        <NomBotanique>caltha plustris</NomBotanique>
+        <zone>4</zone>
+        <Eclairage>ombrage</Eclairage>
+        <Prix>100</Prix>
+        <QuantiteStock>30</QuantiteStock>
+    </Plante>
+    <Plante>
+        <NomCommun>dutchman's-breeches</NomCommun>
+        <NomBotanique>diecentra cucullaria</NomBotanique>
+        <zone>3</zone>
+        <Eclairage>Ensoleille</Eclairage>
+        <Prix>80</Prix>
+        <QuantiteStock>120</QuantiteStock>
+    </Plante>
+    <Plante>
+        <NomCommun>giger, wild</NomCommun>
+        <NomBotanique>asarum canadense</NomBotanique>
+        <zone>3</zone>
+        <Eclairage>Ensoleille</Eclairage>
+        <Prix>90</Prix>
+        <QuantiteStock>92</QuantiteStock>
+    </Plante>
+</Catalogue>

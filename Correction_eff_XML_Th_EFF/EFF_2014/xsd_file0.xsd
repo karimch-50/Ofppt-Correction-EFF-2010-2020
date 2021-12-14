@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="FOOT">
+<xsd:complexType>
+<xsd:sequence>
+    <xsd:element name="JOURNEE" maxOccurs="unbounded">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element name="MATCH" minOccurs="0" maxOccurs="unbounded">
+        <xsd:complexType>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="LOCAUX" type="xsd:string"/>
+        <xsd:attribute name="VISITEURS" type="xsd:string"/>
+        <xsd:attribute name="BUTS_LOCAUX" type="xsd:int"/>
+        <xsd:attribute name="BUTS_VISITEURS" type="xsd:int"/>
+        </xsd:complexType>
+        </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="NUMERO" type="xsd:int"/>
+    <xsd:attribute name="DATE" type="xsd:string"/>
+    </xsd:complexType>
+    </xsd:element>
+</xsd:sequence>
+<xsd:attribute name="DIVISION" type="xsd:int"/>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

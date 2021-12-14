@@ -1,0 +1,5 @@
+<!ELEMENT group (stagiaire+)>
+<!ELEMENT stagiaire (nom,prenom,age)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>

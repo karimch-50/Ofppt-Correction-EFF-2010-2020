@@ -1,0 +1,12 @@
+<!ELEMENT courriers (compte+)>
+<!ATTLIST compte adresse CDATA #REQUIRED
+                 dateCreation CDATA #REQUIRED
+>
+<!ELEMENT compte (etat,message+)>
+<!ELEMENT etat (#PCDATA)>
+<!ELEMENT message (date,objet,priorite,contenu)>
+<!ATTLIST message type CDATA #REQUIRED>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT objet (#PCDATA)>
+<!ELEMENT priorite (#PCDATA)>
+<!ELEMENT contenu (#PCDATA)>

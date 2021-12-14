@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript_file.js"></script>
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body onload="f2()">
+    <form >
+    <fieldset>
+        <input type="radio" name="R1" id="R1"/>
+        <label>Madame</label>
+        <input type="radio" name="R1" id="R2"/>
+        <label>Mademoiselle</label>
+        <input type="radio" name="R1" id="R3"/>
+        <label>Monsieur</label>
+        <table> 
+            <tr>
+                <td><label>Votre prenom*</label></td>
+                <td><input type="text" id="T1"/></td> 
+            </tr>
+            <tr>
+                <td><label>Votre nom*</label></td>
+                <td><input type="text" id="T2"/></td> 
+            </tr>
+            <tr>
+                <td><label>Telephone*</label></td>
+                <td><input type="phone" id="T3"/></td> 
+            </tr>
+            <tr>
+                <td><label>Ville</label></td>
+                <td>
+                    <select id="S1">
+                        <option value="V1">---Choisire une ville---</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Agadire">Agadire</option>
+                    </select>
+                </td> 
+            </tr>
+        </table>
+        <label>Votre Blague*</label>
+        <br/>
+        <textarea rows="3" id="TA1">        
+        </textarea><br/>
+        <label>Quel est le resultat de l'expression:<label id="L1"></label>+<label id="L2"></label></label>
+        <input type="text" id="T4"/>
+        <br/>
+        <input type="button" value="Sauvegarder" onclick="f1()">
+        <input type="reset" value="Annuler" onclick="f3()">
+    </fieldset>
+</form>
+</body>
+</html>

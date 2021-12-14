@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript_file3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>INFOS DE PROFIL:</h1>
+    <fieldset>
+        <input type="radio" name="N1" id="R1">
+        <label>Femme</label>
+        <input type="radio" name="N1" id="R2">
+        <label>Homme</label>
+        <br>
+        <input type="checkbox" id="checkbox1">
+        <label>Oui,je suis une Societe</label>
+        <br>
+        <label>Nom Societe:</label>
+        <br>
+        <input type="text" id="T1">
+        <br>
+        <label>Titre Profil*:</label>
+        <br>
+        <input type="text" placeholder="EX: Developeur Senior en PHP" id="T2">
+        <br>
+        <label>Pays/Ville*:</label>
+        <br>
+        <select id="S1">
+            <option value="">-Veuiller choisir-</option>
+            <option value="Casa">Casa</option>
+            <option value="Agadire">Agadire</option>
+        </select>
+        <br>
+        <label>Telephone*:</label>
+        <br>
+        <input type="text" id="T3">
+        <br>
+    </fieldset>
+    <fieldset>
+        <label>Disponibilite*:</label>
+        <br>
+        <input type="radio" id="R3">
+        <label>(A Distance uniquement)</label>
+        <br>
+        <label>Tarif*:</label>
+        <input type="text" id="T4">
+        <label>DH/Jour</label>
+        <h3>Competences maitrisees</h3>
+        <select id="S2">
+            <option value="PHP/MySQL">PHP/MySQL</option>
+            <option value="Java">Java</option>
+            <option value="C#">C#</option>
+        </select>
+        <select id="S3">
+            <option value="Senior">Senior</option>
+            <option value="Expert">Expert</option>
+        </select>
+        <input type="button" value="Ajouter" onclick="f1()">
+        <h3>Liste de vos competences</h3>
+        <textarea id="textarea1"></textarea>
+        <br>
+        <input type="button" value="Valider" onclick="f2()">
+    </fieldset>
+</body>
+</html>

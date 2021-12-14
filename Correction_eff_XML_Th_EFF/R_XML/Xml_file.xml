@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Xslt_file.xsl" type="text/xsl"?>
+<Studentinfo>
+	<Details>
+		<ID>1</ID>
+		<isbn>i1</isbn>
+		<Titre>t1</Titre>
+	</Details>
+	<Details>
+		<ID>2</ID>
+		<isbn>i2</isbn>
+		<Titre>t2</Titre>
+	</Details>
+	<Details>
+		<ID>3</ID>
+		<isbn>i3</isbn>
+		<Titre>t3</Titre>
+	</Details>
+	<Details>
+		<ID>4</ID>
+		<isbn>i4</isbn>
+		<Titre>t4</Titre>
+	</Details>
+	<Details>
+		<ID>5</ID>
+		<isbn>i5</isbn>
+		<Titre>t5</Titre>
+	</Details>
+	<Details>
+		<ID>6</ID>
+		<isbn>i6</isbn>
+		<Titre>t6</Titre>
+	</Details>
+	<Details>
+		<ID>7</ID>
+		<isbn>i7</isbn>
+		<Titre>t7</Titre>
+	</Details>
+	<Details>
+		<ID>8</ID>
+		<isbn>i8</isbn>
+		<Titre>t8</Titre>
+	</Details>
+	<Details>
+		<ID>9</ID>
+		<isbn>i9</isbn>
+		<Titre>t9</Titre>
+	</Details>
+	<Details>
+		<ID>10</ID>
+		<isbn>i10</isbn>
+		<Titre>t10</Titre>
+	</Details>
+</Studentinfo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="seances">
+<xsd:complexType>
+<xsd:sequence>
+    <xsd:element name="seance" minOccurs="1" maxOccurs="unbounded">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element name="salle" type="xsd:string"/>
+        <xsd:element name="module" type="xsd:string"/>
+        <xsd:element name="formateur" type="xsd:string"/>
+        <xsd:element name="groupe" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="jour" type="xsd:string"/>
+    <xsd:attribute name="debuE" type="xsd:time"/>
+    <xsd:attribute name="fin" type="xsd:time"/>
+    </xsd:complexType>
+    </xsd:element>   
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

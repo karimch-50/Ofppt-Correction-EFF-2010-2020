@@ -1,0 +1,10 @@
+<!ELEMENT seances (seance+)>
+<!ATTLIST seance jour CDATA #REQUIRED
+                 debuE CDATA #REQUIRED
+                 fin CDATA #REQUIRED
+>
+<!ELEMENT seance (salle,module,formateur,groupe)>
+<!ELEMENT salle (#PCDATA)>
+<!ELEMENT module (#PCDATA)>
+<!ELEMENT formateur (#PCDATA)>
+<!ELEMENT groupe (#PCDATA)>

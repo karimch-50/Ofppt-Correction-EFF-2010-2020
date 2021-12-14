@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript_file9.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset style="text-align: center">
+        <h1>Pour s'inscrire,remplire le formulaire suivant:</h1>
+        <table >
+            <tr>
+                <td>Nom:</td>
+                <td><input type="text" id="T1"></td>
+            </tr>
+            <tr>
+                <td>Prenom:</td>
+                <td><input type="text" id="T2"></td>
+            </tr>
+            <tr>
+                <td>Date de naissance:</td>
+                <td>
+                    <input type="text" id="TT1" size="2" placeholder="DD" style="text-align: center">
+                    <input type="text" id="TT2" size="2" placeholder="MM" style="text-align: center">
+                    <input type="text" id="TT3" size="4" placeholder="YYYY" style="text-align: center">
+                </td>
+            </tr>
+            <tr>
+                <td>Mot de passe:</td>
+                <td><input type="text" id="T3"></td>
+            </tr>
+            <tr>
+                <td>Confirmer mot de passe:</td>
+                <td><input type="text" id="T4"></td>
+            </tr>
+        </table>
+        <input type="checkbox" id="CK1" onclick="f2()">
+        <label>J'accepte les condition</label>
+        <br>
+        <input type="button" value="Valider" id="B1" onclick="f1()" disabled=true>
+        <input type="reset" value="Annuler">
+
+    </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+--declare @N1 int, @i int,@result int 
+--set @i=1
+--set @N1=8
+--while(@i<=10)
+--begin
+--set @result=@N1*@i
+--print''+convert(varchar(10),@N1)+'*'+convert(varchar(10),@i)+'='+convert(varchar(10),@result)
+--select @N1 as 'number',@i as 'compteur',@result as 'resultat'
+--set @i=@i+1
+--end

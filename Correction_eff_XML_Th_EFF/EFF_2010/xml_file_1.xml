@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "dtd_file_1.dtd">
+<?xml-stylesheet href="xsl_file_1.xsl" type="text/xsl"?>
+<list>
+<!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="xsd_file_1.xsd"> -->
+    <hotel code="1">
+        <nom>ADRAR</nom>
+        <adresse>Avenue Mohamed V</adresse>
+        <ville>AGADIR</ville>
+        <tel>028840437</tel>
+        <fax>028840545</fax>
+    </hotel>
+    <hotel code="2">
+        <nom>CHEMS</nom>
+        <adresse>1,rue houmane Fetouaki</adresse>
+        <ville>MARRAKECH</ville>
+        <tel>024444813</tel>
+        <tel>024444817</tel>
+        <tel>024444815</tel>
+        <fax>024440547</fax>
+        <fax>024435400</fax>
+        <mail>chems@fram.fr</mail>
+    </hotel>
+</list>

@@ -1,0 +1,17 @@
+<!ELEMENT pelerinages (pelerinage)>
+<!ATTLIST pelerinage annee CDATA #REQUIRED >
+<!ELEMENT pelerinage (pelerin+)>
+<!ATTLIST pelerin num CDATA #REQUIRED
+                  sexe CDATA #REQUIRED
+                  nationalite CDATA #REQUIRED
+                  age CDATA #REQUIRED
+                  idaccompagnateur CDATA
+>
+<!ELEMENT pelerin(nom,prenom,dossier_medical)>
+<!ELEMENT nom #PCDATA>
+<!ELEMENT prenom #PCDATA>
+<!ELEMENT dossier_medical(maladie|enceinte|EMPTY)*>
+<!ATTLIST dossier_medical (group_sanguin CDATA #REQUIRED)>
+<!ELEMENT maladie (#PCDATA)>
+<!ELEMENT enceinte EMPTY>
+<!ATTLIST enceinte(semaine CDATA #REQUIRED) >

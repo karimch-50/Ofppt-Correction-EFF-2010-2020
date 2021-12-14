@@ -1,0 +1,22 @@
+[{
+    "database":{
+        "id":"1",
+        "name":"NDB1",
+        "stagiaire":[
+            {"nom":"N1","prenom":"P1","age":"20"},
+            {"nom":"N2","prenom":"P2","age":"21"},
+            {"nom":"N3","prenom":"P31","age":"22"}
+        ],
+        "foramteur":[
+            {"nom":"NF1","prenom":"PF1","age":"30"},
+            {"nom":"NF2","prenom":"PF2","age":"31"},
+            {"nom":"NF3","prenom":"PF3","age":"32"}
+        ]
+    }
+}]
+
+
+[
+
+]
+

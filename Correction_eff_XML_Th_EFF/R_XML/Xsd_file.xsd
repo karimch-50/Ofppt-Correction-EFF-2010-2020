@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="Studentinfo">
+<xsd:complexType>
+<xsd:sequence minOccurs="1" maxOccurs="1">
+    <xsd:element name="Details">
+    <xsd:complexType>
+    <xsd:sequence minOccurs="1" maxOccurs="unbounded">
+        <xsd:element name="ID" type="xsd:int"/>
+        <xsd:element name="isbn" type="xsd:string"/>
+        <xsd:element name="Titre" type="xsd:string"/>
+    </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>

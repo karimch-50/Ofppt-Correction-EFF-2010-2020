@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE pelerinages SYSTEM "dtd_file5.dtd"> -->
+
+<?xml-stylesheet type="text/xsl" href="xsl_file5.xsl"?>
+<pelerinages
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="xsd_file5.xsd">
+    <pelerinage annee="2018">
+        <pelerin num="p1" sexe="M" nationalite="marocain" age="50">
+            <nom>Alaoui</nom>
+            <prenom>Amine</prenom>
+            <dossier_medical group_sanguin="O+">
+                <maladie>hypertension</maladie>
+            </dossier_medical>
+        </pelerin>
+        <pelerin num="p2" sexe="F" nationalite="libanaise" age="40" idaccompagnateur="P1234">
+            <nom>Talal</nom>
+            <prenom>Sara</prenom>
+            <dossier_medical group_sanguin="A+">
+                <enceinte semaine="4"/>
+            </dossier_medical>
+        </pelerin>
+        <pelerin num="p3" sexe="H" nationalite="egyptien" age="45">
+            <nom>Mabdouli</nom>
+            <prenom>Yassir</prenom>
+            <dossier_medical group_sanguin="B+">         
+            </dossier_medical>
+        </pelerin>
+    </pelerinage>
+</pelerinages>

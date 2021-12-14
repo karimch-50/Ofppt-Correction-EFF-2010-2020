@@ -1,0 +1,9 @@
+<!ELEMENT list (hotel+)>
+<!ATTLIST hotel code CDATA #REQUIRED>
+<!ELEMENT hotel (nom,adresse,ville,tel+,fax+,mail*)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>

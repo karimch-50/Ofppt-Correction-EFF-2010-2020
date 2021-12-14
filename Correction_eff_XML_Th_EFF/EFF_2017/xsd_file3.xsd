@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="courriers">
+<xsd:complexType>
+<xsd:sequence>
+    <xsd:element name="compte" maxOccurs="unbounded">
+    <xsd:complexType>
+    <xsd:sequence>
+        <xsd:element name="etat" type="xsd:string"/>
+        <xsd:element name="message" maxOccurs="unbounded">
+        <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="date" type="xsd:string"/>
+            <xsd:element name="objet" type="xsd:string"/>
+            <xsd:element name="priorite" type="xsd:string"/>
+            <xsd:element name="contenu" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="type" type="xsd:string"/>
+        </xsd:complexType>
+        </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="adresse" type="xsd:string"/>
+    <xsd:attribute name="dateCreation" type="xsd:string"/>
+    </xsd:complexType>
+    </xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
