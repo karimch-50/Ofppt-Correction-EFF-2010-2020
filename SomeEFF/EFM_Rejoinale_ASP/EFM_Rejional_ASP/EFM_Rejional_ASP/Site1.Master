@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EFM_Rejional_ASP.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 512px;
+        }
+        .auto-style6 {
+            height: 57px;
+        }
+        .auto-style7 {
+            width: 267px;
+        }
+        </style>
+</head>
+<body style="height: 545px">
+    <form id="form1" runat="server">
+        <div>
+                <table class="auto-style1">
+                    <tr >
+                        <td colspan="2" class="auto-style6" >
+                            Welcom to my website
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style7">
+                            <h3>Menu</h3>
+                            <asp:Menu ID="Menu1" runat="server">
+                                <Items>
+                                    <asp:MenuItem Text="Ajouter Bien Mobilier" NavigateUrl="~/AjouterBienImobilier.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Mis a jour Contrat" NavigateUrl="~/MAJ_CONTRAT.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Se deconecter" NavigateUrl="~/Connection.aspx"></asp:MenuItem>
+                                </Items>
+                            </asp:Menu>
+                        </td>
+                        <td>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                       </td>
+                    </tr>
+                </table>
+            
+        </div>
+    </form>
+</body>
+</html>

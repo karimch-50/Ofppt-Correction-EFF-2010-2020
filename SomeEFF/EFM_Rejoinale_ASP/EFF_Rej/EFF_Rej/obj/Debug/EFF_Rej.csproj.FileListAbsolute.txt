@@ -1,0 +1,10 @@
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\bin\Debug\EFF_Rej.exe.config
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\bin\Debug\EFF_Rej.exe
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\bin\Debug\EFF_Rej.pdb
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.csprojAssemblyReference.cache
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.Form1.resources
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.Properties.Resources.resources
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.csproj.GenerateResource.cache
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.csproj.CoreCompileInputs.cache
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.exe
+C:\Users\karim\source\repos\EFF_Rej\EFF_Rej\obj\Debug\EFF_Rej.pdb

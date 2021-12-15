@@ -1,0 +1,43 @@
+//pro1
+            connection.Open();
+            SqlCommand command = new SqlCommand("p1",connection);
+            command.CommandType=CommandType.StoredProcedure;
+            SqlDataReader SDR = command.ExecuteReader();
+            while (SDR.Read())
+            {
+                listBox1.Items.Add(SDR[0] + "    " + SDR[1] + "   " + SDR[2]);
+            }
+            SDR.Close();
+            connection.Close();
+//pro2
+            connection.Open();
+            SqlCommand command = new SqlCommand("p2", connection);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.Add("@num",SqlDbType.Int);
+            command.Parameters["@num"].Direction = ParameterDirection.Input;
+            command.Parameters["@num"].Value = int.Parse(textBox1.Text);
+            SqlDataReader SDR = command.ExecuteReader();
+            while (SDR.Read())
+            {
+                listBox1.Items.Add(SDR[0] + "    " + SDR[1] + "   " + SDR[2]);
+            }
+            SDR.Close();
+            connection.Close();
+
+//pro3
+                connection.Open();
+                SqlCommand command = new SqlCommand("p3", connection);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add("@nom", SqlDbType.VarChar);
+                command.Parameters["@nom"].Direction = ParameterDirection.Input;
+                command.Parameters["@nom"].Value = textBox4.Text;
+                command.Parameters.Add("@C", SqlDbType.Int);
+                command.Parameters["@C"].Direction = ParameterDirection.Output;
+                SqlDataReader SDR = command.ExecuteReader();
+                textBox5.Text = command.Parameters["@C"].Value.ToString();
+                while (SDR.Read())
+                {
+                    listBox1.Items.Add(SDR[0] + "    " + SDR[1] + "   " + SDR[2]);
+                }
+                SDR.Close();
+                connection.Close();
